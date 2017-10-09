@@ -3,4 +3,3 @@ User.create!(name:  "Takeitgraceful",
              password:              "c3H-i-eof",
              password_confirmation: "c3H-i-eof",
              admin: true)
-end
