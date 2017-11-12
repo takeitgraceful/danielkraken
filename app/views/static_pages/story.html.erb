@@ -1,6 +1,40 @@
 <% provide(:title, "Our Story") %>
 <h1 class="gold2">Our Story</h1>
-<p>
-</p>
+<main class="page-content">
+    <article class="post">
+<!--
+      <h1>Article Layout with Varying Content Width Using CSS Grid</h1>
+-->
+      <p>
+        Hello, and welcome, to the world of Daniel Kraken! A proud purveyor
+        of sublime ales and spirits since mankind crawled onto the mainland from
+        the cold and uncaring Hypersea, Daniel Kraken's rich history
+        is woven into the very psychic fabric of his esteemed clientele.
+      </p>
+      <p>
+        Any company worth its salt
+        realizes that its past and future depend upon its valued customers. And
+        just as you're thirsty for the story of Daniel Kraken, Daniel Kraken
+        is parched for information about you!
+      </p>
+      <p>
+        If you haven't already signed up and logged in, make sure to visit
+        our <%= link_to "signup page", signup_path %>.
+      </p>
+      <p class="has-side-note">
+        Another totally normal paragraph, but this time,
+        it’s accompanied by a side note, sometimes also called boxout.
+        This works well with CSS grid with the exception of side notes
+        that take up more height than their related paragraph.
+        Gotta try to avoid that.
+      </p>
+
+      <p class="side-note">This is the mentioned side note. It’s very good.</p>
+
+      <p>An ordinary, totally normal paragraph. No strings attached, no promises attached. Just dull content. Trust me.</p>
+
+
+  </article>
+</main>
 </body>
 </html>

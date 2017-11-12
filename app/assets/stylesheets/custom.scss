@@ -196,18 +196,23 @@ footer ul li {
 
 /* Logo */
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
 
-p.a
+.login-big
 {
-    font-family: 'Noto Serif', serif;
-    font-size: 10em;
-    color:  black;
+    font-size: 2em;
+    color:black;
     position: absolute;
     z-index:10;
-    margin-left:-.45em;
-    margin-top: -1.3em;
+    margin-left: .7em;
+    margin-top: -4em;
+    font-family: 'Patua One', serif;
+}
 
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(196, 196, 74, .4);
 }
 
 .center-div {
@@ -239,6 +244,15 @@ body {
   height:45em;
   z-index:-1;
   border-radius: 50%;
+}
+
+.medallion-button {
+  position: absolute;
+  width:5em;
+  height:5em;
+  border-radius: 50%;
+  margin-left:-.2em;
+  margin-top:-6em;
 }
 
 .square {
@@ -1796,6 +1810,11 @@ background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%,
             radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            margin-top:50px;
+            margin-bottom:30px;
+            line-height: normal;
+
+
 
 }
 
@@ -1807,4 +1826,142 @@ background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%,
 
 .white3{
 color: white;
+}
+
+
+
+/*Article Layout*/
+/**
+ * BASE
+ *
+ * (Not super important for the article layout)
+ */
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+pre {
+  color: #fff;
+  background-color: #333;
+  padding: 1vw;
+  overflow-x: auto;
+}
+
+figcaption,
+.side-note {
+  font-size: 0.8em;
+  line-height: 1.875;
+  font-style: italic;
+}
+
+.side-note {
+  border-left: 5px solid #FF4500;
+  padding-left: 1.5rem;
+}
+
+.side-note::before {
+  content: 'Note:';
+  font-style: normal;
+  text-decoration: underline;
+  margin-right: 0.3em;
+}
+
+@media only screen and (max-width: 600px) {
+  .side-note {
+    margin-left: 1.5rem;
+  }
+}
+
+.page-content {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+/**
+ * ARTICLE LAYOUT
+ */
+
+/*
+Main vertical rhythm within in an article.
+
+1: Only apply a margin in one direction for a vertical typographical rhythm
+as we will not be able to make use of collapsing margins due to our use of grid.
+Each grid row will contain one piece of content (e.g. paragraph, quote, etc.)
+including its margins. Since grid creates a new context for each row, the margins
+of successive pieces of content will stack, not collapse.
+*/
+.post > * {
+  margin-top: 0;
+  margin-bottom: 1.5rem; /* 1 */
+}
+
+@supports (display: grid) {
+  @media only screen and (min-width: 600px) {
+    .post {
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+
+      display: grid;
+      grid-column-gap: 1.5rem;
+      align-items: start;
+      grid-template-columns:
+        [full-start main-start] 3fr [main-end side-start] 1fr [side-end full-end];
+    }
+
+    /* Span the regular width */
+    .post > * {
+      grid-column: main;
+    }
+
+    /* Span the full width */
+    .post > pre,
+    .post > figure,
+    .post > blockquote,
+    .grow-to-full {
+      grid-column: full;
+    }
+
+    /*
+    Start with regular content, but span further.
+    Note for future visitors: Use :matches() here
+    */
+    .post > h1,
+    .post > h2,
+    .post > h3,
+    .post > h4,
+    .post > h5,
+    .post > h6 {
+      grid-column: main-start / full-end;
+    }
+
+    /* Make sure, the side note can take its column */
+    .post > .has-side-note {
+      grid-column-end: main-end;
+    }
+
+    /* Additional, related content (i.e. a side note or boxout) */
+    .post > .side-note {
+      grid-column: side;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) {
+    .post {
+      max-width: 1400px;
+      grid-template-columns:
+        [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end full-end];
+    }
+  }
 }
