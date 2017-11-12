@@ -5,6 +5,12 @@ class StaticPagesController < ApplicationController
   def help
   end
 
+  def spirits
+  end
+
+  def story
+  end
+
   def about
   end
 

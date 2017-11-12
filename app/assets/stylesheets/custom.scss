@@ -193,3 +193,1618 @@ footer ul li {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+
+/* Logo */
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+
+p.a
+{
+    font-family: 'Noto Serif', serif;
+    font-size: 10em;
+    color:  black;
+    position: absolute;
+    z-index:10;
+    margin-left:-.45em;
+    margin-top: -1.3em;
+
+}
+
+.center-div {
+  margin: 0 auto;
+  width: 10em;
+}
+
+.center-body {
+  position: relative;
+  width: 5em;
+  margin-left: -2em;
+}
+
+.top-spacer {
+  margin-top: 15em;
+}
+
+body {
+  position: relative;
+  background: black;
+}
+
+.medallion {
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);  margin-top:-22em;
+  margin-left:-18em;
+  position: absolute;
+  width:45em;
+  height:45em;
+  z-index:-1;
+  border-radius: 50%;
+}
+
+.square {
+  width: 9em;
+  height: 11em;
+  background: white;
+}
+
+.head {
+  width: 20em;
+  height: 15em;
+  margin-right: -9.6em;
+  margin-top: -13.2em;
+  float: right;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  background-color: white;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.eggleft {
+  position: absolute;
+  margin-top: 5em;
+  float: left;
+  display: block;
+  width: 4.5em;
+  height: 4em;
+  background-color: black;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.eggright {
+  position: absolute;
+  margin-top: 5em;
+  margin-left: 4.5em;
+  float: left;
+  display: block;
+  width: 4.5em;
+  height: 4em;
+  background-color: black;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.eggwhiteleft {
+  position: absolute;
+  margin-top: 5.3em;
+  margin-left: 0.3em;
+  float: left;
+  display: block;
+  width: 4em;
+  height: 3.5em;
+  background-color: white;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.eggwhiteright {
+  position: absolute;
+  margin-top: 5.3em;
+  margin-left: 4.8em;
+  float: left;
+  display: block;
+  width: 4em;
+  height: 3.5em;
+  background-color: white;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.eggblackleft {
+  position: absolute;
+  margin-top: 5.5em;
+  margin-left: 0.55em;
+  float: left;
+  display: block;
+  width: 3.5em;
+  height: 3em;
+  background-color: black;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.eggblackright {
+  position: absolute;
+  margin-top: 5.5em;
+  margin-left: 5em;
+  float: left;
+  display: block;
+  width: 3.5em;
+  height: 3em;
+  background-color: black;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.eggwhitesmallleft {
+  position: absolute;
+  margin-top: 5.7em;
+  margin-left: 0.8em;
+  float: left;
+  display: block;
+  width: 3em;
+  height: 2.5em;
+  background-color: white;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.eggwhitesmallright {
+  position: absolute;
+  margin-top: 5.7em;
+  margin-left: 5.2em;
+  float: left;
+  display: block;
+  width: 3em;
+  height: 2.5em;
+  background-color: white;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.eggblacksmallleft {
+  position: absolute;
+  margin-top: 5.9em;
+  margin-left: 1em;
+  float: left;
+  display: block;
+  width: 2.5em;
+  height: 2em;
+  background-color: black;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.eggblacksmallright {
+  position: absolute;
+  margin-top: 5.9em;
+  margin-left: 5.4em;
+  float: left;
+  display: block;
+  width: 2.5em;
+  height: 2em;
+  background-color: black;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.mouthrounding {
+  position: absolute;
+  margin-top: 10em;
+  margin-left: .5em;
+  float: left;
+  display: block;
+  width: 7.5em;
+  height: 4em;
+  background-color: white;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+.rightarm {
+  float: left;
+  width: 4em;
+  height: 4em;
+  margin-left: 7.7em;
+  margin-top: -20.1em;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.rightarmcovering {
+  float: left;
+  position: absolute;
+  z-index: 1;
+  width: 2.7em;
+  height: 2.7em;
+  margin-left: 7.7em;
+  margin-top: -20em;
+  background: #f4d442;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.leftarm {
+
+  width: 4em;
+  height: 4em;
+  margin-left: -26.6em;
+  margin-top: -10.1em;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.leftarmcovering {
+  float: left;
+  position: absolute;
+  z-index: 1;
+  width: 2.7em;
+  height: 2.7em;
+  margin-left: -5em;
+  margin-top: -20em;
+  background: #f4d442;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.armcontainer {
+position:relative;
+margin-left:7em;
+margin-top:-9.5em;
+
+
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    transform: scale(1);
+    background-color: black;
+  }
+}
+
+@keyframes stretch2 {
+  0% {
+    transform: scale(0.3);
+    background-color: white;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1);
+    background-color: white;
+  }
+}
+
+.wave {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 9em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave2 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -10em;
+  margin-top: 9em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave2.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave2.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave3 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -12.5em;
+  margin-top: 8em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave3.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave3.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave4 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -14em;
+  margin-top: 7em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave4.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave4.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave5 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -14em;
+  margin-top: 6em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave5.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave5.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave6 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -14em;
+  margin-top: 4em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave6.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave6.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave6 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -14em;
+  margin-top: 4em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave6.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave6.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave7 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -14em;
+  margin-top: 3em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave7.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave7.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave8 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -14em;
+  margin-top: 2em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave8.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave8.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave9 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -15em;
+  margin-top: 1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave9.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave9.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave10 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -16em;
+  margin-top: 0em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave10.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave10.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave11 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 0em;
+  margin-top: 9em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave11.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave11.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave12 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 1em;
+  margin-top: 9em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave12.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave12.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave13 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 3.5em;
+  margin-top: 8em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave13.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave13.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave14 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 5em;
+  margin-top: 7em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave14.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave14.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave15 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 5em;
+  margin-top: 6em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave15.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave15.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave16 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 5em;
+  margin-top: 4em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave16.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave16.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave17 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 5em;
+  margin-top: 3em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave17.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave17.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave18 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 5em;
+  margin-top: 2em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave18.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave18.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave19 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 6em;
+  margin-top: 1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave19.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave19.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave20 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 7em;
+  margin-top: 0em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave20.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave20.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave31 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -16em;
+  margin-top: 9em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave31.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave31.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave32 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -18em;
+  margin-top: 8em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wav32.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave32.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave33 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -19em;
+  margin-top: 6em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave33.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave33.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave34 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -20em;
+  margin-top: 5em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave34.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave34.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave35 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -21em;
+  margin-top: 4em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave35.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave35.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave36 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: 2em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave36.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave36.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave37 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: 1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave37.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave37.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave38 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: 1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave38.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave38.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave39 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: 0em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave39.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave39.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave40 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: -1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave40.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave40.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave41 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: -3.0em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave41.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave41.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave42 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: -4em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave42.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave42.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave43 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -21em;
+  margin-top: -6em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave43.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave43.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave44 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -20em;
+  margin-top: -7em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave44.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave44.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave45 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: -22em;
+  margin-top: -1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave45.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave45.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave51 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 7.5em;
+  margin-top: 9em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave51.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave51.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave52 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 8.5em;
+  margin-top: 8em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wav52.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave52.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave53 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 10em;
+  margin-top: 6em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave53.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave53.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave54 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 11em;
+  margin-top: 5em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave54.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave54.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave55 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 12em;
+  margin-top: 4em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave55.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave55.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave56 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: 2em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave56.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave56.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave57 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: 1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave57.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave57.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave58 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: 1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave58.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave58.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave59 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: 0em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave59.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave59.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave60 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: -1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave60.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave60.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave61 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: -3.0em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave61.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave61.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave62 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: -4em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave62.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave62.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave63 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 12em;
+  margin-top: -6em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave63.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave63.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave64 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 11em;
+  margin-top: -7em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave64.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave64.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+.wave65 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #ffffff;
+  width: 4em;
+  height: 4em;
+  margin-left: 13em;
+  margin-top: -1em;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave65.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave65.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: 0.1;
+  background: #fffff;
+}
+
+@keyframes drift {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+.gold2{
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+            radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+}
+
+.gold3{
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+            radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
+}
+
+.white3{
+color: white;
+}
