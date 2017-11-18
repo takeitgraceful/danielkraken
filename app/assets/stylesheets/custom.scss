@@ -209,6 +209,10 @@ footer ul li {
     font-family: 'Patua One', serif;
 }
 
+.fontcolor-black {
+color: black;
+}
+
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
@@ -463,7 +467,7 @@ body {
 .mouthrounding {
   position: absolute;
   margin-top: 10em;
-  margin-left: .5em;
+  margin-left: .8em;
   float: left;
   display: block;
   width: 7.5em;
