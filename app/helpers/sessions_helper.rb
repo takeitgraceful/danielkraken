@@ -4,8 +4,8 @@ module SessionsHelper
 
   def require_login
     unless logged_in?
-      flash[:error] = "You must be logged in to access this section"
-      redirect_to signup_url # halts request cycle
+      flash[:info] = "Please log in to access the world of Daniel Kraken!"
+      redirect_to login_url # halts request cycle
     end
   end
   # Logs in the given user.

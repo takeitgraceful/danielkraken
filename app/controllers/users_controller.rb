@@ -4,6 +4,10 @@ class UsersController < ApplicationController
   before_action :admin_user,     only: :destroy
 
 
+  def spirits
+    @user = current_user
+  end
+
   def index
     @users = User.paginate(page: params[:page])
   end
@@ -50,8 +54,9 @@ class UsersController < ApplicationController
   private
   def user_params
   params.require(:user).permit(:name, :email, :password,
+                               :characterfirstname,:characterlastname,
                                :password_confirmation)
-end
+  end
 
 # Confirms a logged-in user.
 def logged_in_user
