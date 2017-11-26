@@ -1,0 +1,12 @@
+<%= form_for(@user= current_user) do |f| %>
+  <%= render 'shared/error_messages', object: @user %>
+
+  <%= f.label :characterfirstname,"First Name" %>
+    <%= f.text_field :characterfirstname, class: 'form-control' %>
+
+  <%= f.label :Character_Last_Name, "Last Name"%>
+  <%= f.text_field :characterlastname, class: 'form-control' %>
+
+
+  <%= f.submit yield(:button_text), class: "btn-lg gold3 white3" %>
+<% end %>
