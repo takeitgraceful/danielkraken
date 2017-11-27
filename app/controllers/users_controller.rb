@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
 
   def spirits
-    @user = current_user
+    @user = logged_in_user
   end
 
   def index

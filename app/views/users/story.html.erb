@@ -1,5 +1,6 @@
 <% provide(:title, "Our Story") %>
 <h1 class="gold2">Our Story</h1>
+<div>
 <main class="page-content">
     <article class="post">
 <!--
@@ -22,6 +23,17 @@
         for your character. Before you slake your thirst for story in the
         land of Daniel Kraken, let us take a wee dram of you:
       </p>
+    </div>
+      <% provide(:button_text, 'Save changes') %>
+      <h1 class="gold2">Choose Your Name</h1>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <%= render 'form_character_name' %>
+        </div>
+      </div>
+      <div>
+      <main class="page-content">
+          <article class="post">
       <p class="has-side-note">
         Another totally normal paragraph, but this time,
         it’s accompanied by a side note, sometimes also called boxout.
