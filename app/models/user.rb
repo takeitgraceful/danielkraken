@@ -88,4 +88,10 @@ end
       self.activation_digest = User.digest(activation_token)
     end
 
+    def characterfirstname
+    end
+
+    def characterlastname
+    end
+
 end

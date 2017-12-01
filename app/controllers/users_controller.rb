@@ -57,11 +57,6 @@ class UsersController < ApplicationController
 
   end
 
-  def characterfirstname
-  end
-
-  def characterlastname
-  end
 # Confirms a logged-in user.
 def logged_in_user
   unless logged_in?
