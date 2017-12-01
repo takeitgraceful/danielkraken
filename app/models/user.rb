@@ -65,11 +65,7 @@ end
     update_attribute(:reset_sent_at, Time.zone.now)
   end
 
-  def characterfirstname
-  end
 
-  def characterlastname
-  end
 
 
   private
