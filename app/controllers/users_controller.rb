@@ -3,9 +3,7 @@ class UsersController < ApplicationController
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
 
-
   def spirits
-    @user = logged_in_user
   end
 
   def index
@@ -56,6 +54,7 @@ class UsersController < ApplicationController
   params.require(:user).permit(:name, :email, :password,
                                :characterfirstname,:characterlastname,
                                :password_confirmation)
+
   end
 
 # Confirms a logged-in user.
