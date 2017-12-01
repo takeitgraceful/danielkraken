@@ -66,11 +66,11 @@ end
   end
 
   def characterfirstname
-    user.characterfirstname
+    @user.characterfirstname
   end
 
   def characterlastname
-    user.characterlastname
+    @user.characterlastname
   end
 
 
