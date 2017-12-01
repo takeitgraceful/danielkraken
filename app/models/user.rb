@@ -66,9 +66,11 @@ end
   end
 
   def characterfirstname
+    user.characterfirstname
   end
 
   def characterlastname
+    user.characterlastname
   end
 
 
