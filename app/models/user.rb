@@ -69,6 +69,12 @@ end
     update_attribute(:reset_sent_at, Time.zone.now)
   end
 
+  def characterfirstname
+  end
+
+  def characterlastname
+  end
+
 
   private
 
@@ -88,10 +94,5 @@ end
       self.activation_digest = User.digest(activation_token)
     end
 
-    def characterfirstname
-    end
-
-    def characterlastname
-    end
 
 end
