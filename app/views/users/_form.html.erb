@@ -13,5 +13,11 @@
   <%= f.label :password_confirmation %>
   <%= f.password_field :password_confirmation, class: 'form-control' %>
 
+  <%= f.label :characterfirstname,"First Name" %>
+  <%= f.text_field :characterfirstname, class: 'form-control' %>
+
+  <%= f.label :characterlastname,"Last Name" %>
+  <%= f.text_field :characterlastname, class: 'form-control' %>
+
   <%= f.submit yield(:button_text), class: "btn-lg gold3 white3" %>
 <% end %>
