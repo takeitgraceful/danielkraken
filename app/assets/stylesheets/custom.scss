@@ -73,9 +73,6 @@ $gray-medium-light: #eaeaea;
 
 /* universal */
 
-body {
-  padding-top: 60px;
-}
 
 section {
   overflow: auto;
@@ -220,8 +217,7 @@ color: black;
 }
 
 .center-div {
-  margin: 0 auto;
-  max-width: 2em;
+  max-width: 70%;
 }
 
 .center-body {
@@ -235,8 +231,12 @@ color: black;
 }
 
 body {
-  position: relative;
   background: black;
+  padding-top: 60px;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
 }
 
 
@@ -1834,12 +1834,6 @@ color: white;
  *
  * (Not super important for the article layout)
  */
-body {
-  font-size: 2rem;
-  line-height: 1.5;
-  font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
-  color: #fff;
-}
 
 
 
@@ -1962,4 +1956,932 @@ of successive pieces of content will stack, not collapse.
         [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end full-end];
     }
   }
+}
+
+.center-div{
+  margin: 0 auto;
+  margin-left:30em;
+}
+
+/* Adding Hypersea */
+
+.center-div-seal-left{
+position:relative;
+float:left;
+left:-7em;
+}
+
+.center-div-seal-right{
+  position:absolute;
+  right:5em;
+
+}
+
+.top_spacer {margin-top:3em;
+}
+
+.hyperseacovering {
+    margin-left:inherit;
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:200;
+}
+.hyperseacovering img {
+    width:100%;
+    height:100%;
+}
+.hyperseacovering:after, .hyperseacovering:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.image:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+}
+.hyperseacovering:before {
+    content: attr(data-content);
+    width:100%;
+    height:100%;
+    color:#fff;
+    bottom:0;
+    padding-top:7em;
+    padding-left:11em;
+    text-align:left;
+    background:black;
+    z-index:200;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.hyperseacovering:hover:after, .hyperseacovering:hover:before {
+    opacity:.7;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+
+p.h
+{
+font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:2.2em;
+    margin-left:.45em;
+      -ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
+    transform: rotate(-30deg);
+}
+
+p.y
+{
+font-family: 'Cinzel Decorative', cursive;
+
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:1.8em;
+    margin-left:1.2em;
+        -ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
+    transform: rotate(-25deg);
+}
+
+p.p
+{
+font-family: 'Cinzel Decorative', cursive;
+
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:1.5em;
+    margin-left:1.85em;
+        -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+p.e
+{
+font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:1.2em;
+    margin-left:2.65em;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+    transform: rotate(-15deg);
+}
+
+p.r
+{
+font-family: 'Cinzel Decorative', cursive;
+
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:1.2em;
+    margin-left:3.50em;
+        -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+}
+
+
+p.s
+{
+font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:1.5em;
+    margin-left:4.4em;
+        -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+}
+
+p.e2
+{
+font-family: 'Cinzel Decorative', cursive;
+
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:1.9em;
+    margin-left:5em;
+        -ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+}
+
+p.a
+{
+font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+    color:  #f94b27;
+    text-shadow: 2px 2px 5px #f94b27;
+    position: absolute;
+    z-index:10;
+    margin-top:2.20em;
+    margin-left:5.6em;
+        -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+path {
+  fill: transparent;
+}
+.absolute_div {
+  position:relative;
+  float:left;
+  z-index:10;
+}
+text {
+  fill: #FF9800;
+}
+
+.whiteshield {
+  position:relative;
+  background:#ffffff;
+  width:20em;
+  height:20em;
+  margin-left:10em;
+}
+
+.wavecoveringleft {
+  position:absolute;
+  background:black;
+  float:left;
+  margin-top: 10em;
+  width:4em;
+  height:8em;
+  z-index:20;
+  margin-left:6em;
+}
+
+.wavecoveringright {
+  position:absolute;
+  background:black;
+  float:left;
+  margin-top: 10em;
+  width:4em;
+  height:8em;
+  z-index:20;
+  margin-left:30em;
+}
+
+.blueshield {
+  position:absolute;
+  background:#153466;
+  width:20em;
+  height:12em;
+  margin-left:0em;
+}
+
+.blueshield2 {
+  position:absolute;
+  background:#153466;
+  width:20em;
+  height:8em;
+  margin-top:16em;
+  margin-left:0em;
+}
+
+.leftlowercircle {
+  position:absolute;
+  background:black;
+  float:left;
+  border-radius: 50%;
+  margin-top: -3em;
+  width:10em;
+  height:8em;
+  z-index:1;
+  margin-left:4em;
+}
+
+.rightlowercircle {
+  position:absolute;
+  background:black;
+  float:right;
+  border-radius: 50%;
+  margin-top: -3em;
+  width:10em;
+  height:8em;
+  z-index:1;
+  margin-left:26.3em;
+}
+
+
+.leftuppercircle {
+  position:absolute;
+  background:black;
+  float:left;
+  border-radius: 50%;
+  margin-top: -23em;
+  width:10em;
+  height:8em;
+  z-index:1;
+  margin-left:6em;
+}
+
+.rightuppercircle {
+  position:absolute;
+  background:black;
+  float:right;
+  border-radius: 50%;
+  margin-top: -23em;
+  width:10em;
+  height:8em;
+  z-index:1;
+  margin-left:23.9em;
+}
+
+.bluecirclewave0 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:-2.9em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:-1em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave2 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:.9em;
+}
+
+.bluecirclewave3 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:2.8em;
+}
+.bluecirclewave4 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:4.7em;
+}
+
+.bluecirclewave5 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:6.6em;
+}
+
+.bluecirclewave6 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:8.5em;
+}
+
+.bluecirclewave7 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:10.4em;
+}
+
+.bluecirclewave8 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:12.3em;
+}
+
+.bluecirclewave9 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:14.2em;
+}
+
+.bluecirclewave10 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:16.1em;
+}
+
+.bluecirclewave11 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:18em;
+}
+
+.bluecirclewave12 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:19.9em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave20 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:-2.9em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave21 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:-1em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:-1em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave2 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:.9em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave3 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:2.8em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.bluecirclewave4 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:4.7em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave5 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:6.6em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave6 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:8.5em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave7 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:10.4em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave8 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:12.3em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave9 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:14.2em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave10 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:16.1em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave11 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 11em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:18em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wavespacer1 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  width:20em;
+  height:1em;
+  margin-top: 13.09em;
+  z-index:13;
+  margin-left:0;
+}
+
+.wavespacer2 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  width:20em;
+  height:1em;
+  margin-top: 15.2em;
+  z-index:13;
+  margin-left:0;
+}
+
+
+.bluecirclewave21 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:-1.3em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave22 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:.5em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave23 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:2.4em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave24 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:4.3em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave25 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:6.2em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave26 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:8.1em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave27 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:10em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave28 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:11.9em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave29 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:13.8em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave210 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:15.7em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave211 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:17.6em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bluecirclewave212 {
+  position:absolute;
+  background:#153466;
+  float:right;
+  border-radius: 50%;
+  margin-top: 13.1em;
+  width:2em;
+  height:2em;
+  z-index:13;
+  margin-left:19.5em;
+  animation-name: wavemove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* Standard syntax */
+@keyframes wavemove {
+    0%   {left:0px; top:0px;}
+    100% {left:2em; top:0px;}
+}
+
+
+p.depths
+{
+font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.4em;
+    color: white;
+    position: absolute;
+    z-index:10;
+    margin-top:12em;
+    margin-left:4.7em;
+
+}
+
+p.depths2
+{
+font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.4em;
+    color: white;
+    position: absolute;
+    z-index:10;
+    margin-top:13.5em;
+    margin-left:5.6em;
+}
+
+p.depths3
+{
+font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.4em;
+    color: white;
+    position: absolute;
+    z-index:10;
+    margin-top:15em;
+    margin-left:4em;
 }
