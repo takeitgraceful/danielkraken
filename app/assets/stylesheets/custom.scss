@@ -216,9 +216,6 @@ color: black;
   box-shadow: 0 5px 15px rgba(196, 196, 74, .4);
 }
 
-.center-div {
-  max-width: 70%;
-}
 
 .center-body {
   position: relative;
@@ -1861,9 +1858,8 @@ figcaption,
   border-left: 5px solid #FF4500;
   padding-left: 1.5rem;
 }
-
 .side-note::before {
-  content: 'Note:';
+  content: '';
   font-style: normal;
   text-decoration: underline;
   margin-right: 0.3em;
@@ -1956,6 +1952,11 @@ of successive pieces of content will stack, not collapse.
         [full-start] 1fr [main-start] 3fr [main-end side-start] 1fr [side-end full-end];
     }
   }
+}
+
+.center-div-kraken{
+  margin: 0 auto;
+  margin-left:30em;
 }
 
 .center-div{
@@ -2884,4 +2885,106 @@ font-family: 'Cinzel Decorative', cursive;
     z-index:10;
     margin-top:15em;
     margin-left:4em;
+}
+
+/* Adding Chapter Links */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body2{
+  font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+  background:black;
+  margin-left:0 auto;
+}
+.wrapper{
+}
+a2,a2:visited,a2:hover,a2:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+	color:#81b3d2;
+	font-size:2.5em;
+}
+a2:hover{
+	color:white;
+}
+a2.before:before,a2.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a2.before:before{
+  top:-0.25em;
+}
+a2.after:after{
+  bottom:-0.25em;
+}
+a2.before:before,a2.after:after{
+  height:5px;
+  height:0.35rem;
+  width:0;
+  background:white;
+}
+
+a2.before:hover:before,a2.after:hover:after{
+  width:100%;
+}
+.square2{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square2 a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square2:before,.square2:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #FF4500;
+}
+.square2:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square2.individual:before{
+  transition-delay:0.6s;
+}
+.square2:after{
+  right:0;
+  top:-0.2em;
+}
+.square2.individual:after{
+  transition-delay:0.2s;
+}
+.square2 a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square2 a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square2.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square2:hover:before,.square2:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square2:hover a2:before,.square2:hover a2:after{
+  width:100%;
 }

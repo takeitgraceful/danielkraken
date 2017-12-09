@@ -35,19 +35,20 @@
       <main class="page-content">
           <article class="post">
       <p class="has-side-note">
-        Another totally normal paragraph, but this time,
-        it’s accompanied by a side note, sometimes also called boxout.
-        This works well with CSS grid with the exception of side notes
-        that take up more height than their related paragraph.
-        Gotta try to avoid that.
+      Aha! Thank you! Now the narrative can proceed. If you'd like, you can
+      change or update your character name at any time in your <%= link_to "User Profile", edit_user_path(current_user) %>.
       </p>
 
-      <p class="side-note">This is the mentioned side note. It’s very good.</p>
-
-      <p>An ordinary, totally normal paragraph. No strings attached, no promises attached. Just dull content. Trust me.</p>
-
-
-  </article>
+      <p class="side-note">"Ugh. These people and their precious names"--Daniel Kraken</p>
+    </article>
+    </div>
 </main>
 </body>
+<div class="wrapper">
+  <h1 class="square2">
+    <a2 class="before after gold2">
+    <%= link_to "Prologue", prologue_path(current_user) %>
+    </a2>
+  </h1>
+</div>
 </html>
