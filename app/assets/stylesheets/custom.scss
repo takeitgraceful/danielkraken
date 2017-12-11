@@ -2988,3 +2988,43 @@ a2.before:hover:before,a2.after:hover:after{
 .square2:hover a2:before,.square2:hover a2:after{
   width:100%;
 }
+
+/* Adding Dramatis Personae */
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+.dramatis {
+  font-family: 'EB Garamond', serif;
+  font-size:6em;
+  margin: 0 auto;
+  position:relative;
+  text-align:center;
+}
+
+.dramatis-contents {
+  width:100%;
+  margin: 0 auto;
+  position:relative;
+}
+
+.listfloatleft {
+  float:left;
+  position: relative;
+  left: 15%;
+}
+
+.listfloatright {
+  float:right;
+}
+
+.li2 {
+  margin: 1em;
+  font-family: 'EB Garamond', serif;
+  font-size:1.5em;
+}
+
+.ellipsis {
+float:left;
+position: relative;
+left: 7%;
+}
