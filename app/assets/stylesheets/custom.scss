@@ -3031,25 +3031,377 @@ left: 7%;
 
 /* Adding Pocketwatch */
 
-.entire_clock_container{
-margin-left:-2em;
-}
+.entire_clock_container_clock_month_hand{
+  z-index:999;
+  margin-left:-19.5em;
+  position:relative;
+  -webkit-transform:scale(0.5);
+  -moz-transform:scale(0.5);
+  -ms-transform:scale(0.5);
+  transform:scale(0.5);}
+
+  .entire_clock_container_clock{
+    z-index:50;
+    margin-left:-19.5em;
+    position:relative;
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(0.5);}
+
+  .entire_clock_container_season{
+    z-index:-25;
+    margin-left:-20em;
+    position:relative;
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(0.5);}
+
+    .entire_clock_container_season_label{
+      z-index:50;
+      margin-left:-20em;
+      position:relative;
+      -webkit-transform:scale(0.5);
+      -moz-transform:scale(0.5);
+      -ms-transform:scale(0.5);
+      transform:scale(0.5);}
+
+      .ROUGE{
+        margin-top: 19em;
+        margin-left:55em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(3deg);
+      }
+      .BANNERMAN{
+        margin-top: 19em;
+        margin-left:53em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(-8deg);
+      }
+      .LAMPLIGHTER{
+        margin-top: 19em;
+        margin-left:52em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(-18deg);
+      }
+      .CARAMEL{
+        margin-top: 19em;
+        margin-left:51em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(-28deg);
+      }
+      .BABEL{
+        margin-top: 19em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(-45deg);
+      }
+      .THIEF{
+        margin-top: 20em;
+        margin-left:47em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(-60deg);
+      }
+      .WHISTLE{
+        margin-top: 23em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(296deg);
+      }
+      .GOLIATH{
+        margin-top: 24em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(286deg);
+      }
+      .MIDWIFE{
+        margin-top: 25em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(276deg);
+      }
+      .CHALLENGE{
+        margin-top: 26em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(266deg);
+      }
+      .TORRENT{
+        margin-top: 27em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(256deg);
+      }
+      .WOOLPULLER{
+        margin-top: 28em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(246deg);
+      }
+      .WITNESS{
+        margin-top: 30em;
+        margin-left:48em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(236deg);
+      }
+      .SPITTOON{
+        margin-top: 31em;
+        margin-left:49em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(226deg);
+      }
+      .BRIDLE{
+        margin-top: 32em;
+        margin-left:50em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(216deg);
+      }
+      .HONEYSUCKLE{
+        margin-top: 32em;
+        margin-left:51em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(206deg);
+      }
+      .FANG{
+        margin-top: 32em;
+        margin-left:53em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(196deg);
+      }
+      .DOTARD{
+        margin-top: 32em;
+        margin-left:54em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(186deg);
+      }
+      .CLOVER{
+        margin-top: 32em;
+        margin-left:55em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(176deg);
+      }
+      .BLANC{
+        margin-top: 32em;
+        margin-left:57em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(166deg);
+      }
+      .SHATTER{
+        margin-top: 31em;
+        margin-left:58em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(156deg);
+      }
+      .NITPICKER{
+        margin-top: 31em;
+        margin-left:59em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(146deg);
+      }
+      .PETULANCE{
+        margin-top: 31em;
+        margin-left:61em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(136deg);
+      }
+      .ICONOCLAST{
+        margin-top: 29em;
+        margin-left:61em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(126deg);
+      }
+      .NEOPHYTE{
+        margin-top: 27em;
+        margin-left:61em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(114deg);
+      }
+      .HEAVENS{
+        margin-top: 26em;
+        margin-left:61em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(103deg);
+      }
+      .TERROR{
+        margin-top: 25em;
+        margin-left:61em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(93deg);
+      }
+      .NAÏF{
+        margin-top: 24em;
+        margin-left:60em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(83deg);
+      }
+      .ROUSTABOUT{
+        margin-top: 23em;
+        margin-left:60em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(73deg);
+      }
+      .BUTTERSCOTCH{
+        margin-top: 22em;
+        margin-left:60em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(63deg);
+      }
+      .SLATE{
+        margin-top: 21em;
+        margin-left:59em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(53deg);
+      }
+      .ENTICER{
+        margin-top: 21em;
+        margin-left:59em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(42deg);
+      }
+      .RAM{
+        margin-top: 20em;
+        margin-left:58em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(33deg);
+      }
+      .SAFFRON{
+        margin-top: 19em;
+        margin-left:57em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(20deg);
+      }
+
+      .STERLING{
+        margin-top: 19em;
+        margin-left:56em;
+        -moz-transform: rotate(10deg); /* Firefox */
+        -ms-transform: rotate(10deg); /* IE */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        transform:rotate(12deg);
+      }
+
+      .ENDURE{
+        margin-top: 18em;
+        margin-left:49em;
+        -moz-transform: rotate(10deg); /* Firefox */
+    		-ms-transform: rotate(10deg); /* IE */
+    		-webkit-transform: rotate(10deg); /* Safari and Chrome */
+    		-o-transform: rotate(10deg); /* Opera */
+    		transform:rotate(-40deg);
+      }
 
 .month_hand{
   z-index:999;
   overflow:visible;
   background: url(http://iwillnottakethisgracefully.com/images/month_hand.svg) no-repeat center;
   background-size: 100%;
-  margin-top: 18em;
-  margin-left:49em;
   position: absolute;
   height: 30em;
   width: 10em;
-    -moz-transform: rotate(10deg); /* Firefox */
-		-ms-transform: rotate(10deg); /* IE */
-		-webkit-transform: rotate(10deg); /* Safari and Chrome */
-		-o-transform: rotate(10deg); /* Opera */
-		transform:rotate(-40deg);
 }
 
 .clock {
@@ -3164,7 +3516,7 @@ margin-left:-2em;
 .seasonlabel1 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3178,7 +3530,7 @@ margin-left:-2em;
 .seasonlabel2 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3191,7 +3543,7 @@ margin-left:-2em;
 .seasonlabel3 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3206,7 +3558,7 @@ margin-left:-2em;
 .seasonlabel4 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3220,7 +3572,7 @@ margin-left:-2em;
 .seasonlabel5 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3234,7 +3586,7 @@ margin-left:-2em;
 .seasonlabel6 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3248,7 +3600,7 @@ margin-left:-2em;
 .seasonlabel7 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3263,7 +3615,7 @@ margin-left:-2em;
 .seasonlabel8 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3277,7 +3629,7 @@ margin-left:-2em;
 .seasonlabel9 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3291,7 +3643,7 @@ margin-left:-2em;
 .seasonlabel10 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3305,7 +3657,7 @@ margin-left:-2em;
 .seasonlabel11 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3320,7 +3672,7 @@ margin-left:-2em;
 .seasonlabel12 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3334,7 +3686,7 @@ margin-left:-2em;
 .seasonlabel13 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3349,7 +3701,7 @@ margin-left:-2em;
 .seasonlabel14 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3363,7 +3715,7 @@ margin-left:-2em;
 .seasonlabel15 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3378,7 +3730,7 @@ margin-left:-2em;
 .seasonlabel16 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3392,7 +3744,7 @@ margin-left:-2em;
 .seasonlabel17 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3407,7 +3759,7 @@ margin-left:-2em;
 .seasonlabel18 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3421,7 +3773,7 @@ margin-left:-2em;
 .seasonlabel19 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3435,7 +3787,7 @@ margin-left:-2em;
 .seasonlabel20 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3448,7 +3800,7 @@ margin-left:-2em;
 .seasonlabel21 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3463,7 +3815,7 @@ margin-left:-2em;
 .seasonlabel22 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3478,21 +3830,21 @@ margin-left:-2em;
 .seasonlabel23 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
 		-webkit-transform: rotate(10deg); /* Safari and Chrome */
 		-o-transform: rotate(10deg); /* Opera */
 		transform:rotate(-255deg);
-    margin-top:4.2em;
+    margin-top:3.8em;
     margin-left:0.3em;
 }
 
 .seasonlabel24 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3507,7 +3859,7 @@ margin-left:-2em;
 .seasonlabel25 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3522,7 +3874,7 @@ margin-left:-2em;
 .seasonlabel26 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3536,7 +3888,7 @@ margin-left:-2em;
 .seasonlabel27 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3550,7 +3902,7 @@ margin-left:-2em;
 .seasonlabel28 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3564,7 +3916,7 @@ margin-left:-2em;
 .seasonlabel29 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3578,7 +3930,7 @@ margin-left:-2em;
 .seasonlabel30 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3593,7 +3945,7 @@ margin-left:-2em;
 .seasonlabel31 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3607,7 +3959,7 @@ margin-left:-2em;
 .seasonlabel32 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3622,7 +3974,7 @@ margin-left:-2em;
 .seasonlabel33 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3637,7 +3989,7 @@ margin-left:-2em;
 .seasonlabel34 {
     font-family: 'EB Garamond', serif;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3652,7 +4004,7 @@ margin-left:-2em;
     font-family: 'EB Garamond', serif;
     color:white;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
@@ -3667,7 +4019,7 @@ margin-left:-2em;
     font-family: 'EB Garamond', serif;
     color:white;
     font-size:2em;
-    z-index:50;
+font-weight:bold;    z-index:50;
     position: absolute;
   -moz-transform: rotate(10deg); /* Firefox */
 		-ms-transform: rotate(10deg); /* IE */
