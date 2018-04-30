@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
 
   root 'static_pages#home'
-  get  '/help',    to: 'static_pages#help'
+  get  '/ales',    to: 'users#ales'
   get  '/spirits',    to: 'users#spirits'
   get  '/story',    to: 'users#story'
   get  '/prologue',    to: 'users#prologue'

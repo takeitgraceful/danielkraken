@@ -1966,10 +1966,16 @@ of successive pieces of content will stack, not collapse.
 
 /* Adding Hypersea */
 
-.center-div-seal-left{
+.center-div-seal-spirit-1{
 position:relative;
 float:left;
 left:-7em;
+}
+
+.center-div-seal-ale-1{
+position:relative;
+float:left;
+left:7em;
 }
 
 .center-div-seal-right{
@@ -5940,3 +5946,168 @@ font-weight:bold;    z-index:50;
 		-o-transform: rotate(361deg); /* Opera */
 		transform:rotate(361deg);
 	}
+
+  /* Adding Regicide */
+
+  @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+.regicide-text
+{
+font-family: 'Bungee Shade', cursive;
+    font-size: 3em;
+    color:  #DAA520	;
+    position: absolute;
+    z-index:10;
+    margin-left:.30em;
+
+}
+
+.regicide-text2
+{
+font-family: 'Bungee Shade', cursive;
+    font-size: 1.6em;
+    color:  #DAA520	;
+    position: absolute;
+    z-index:10;
+    margin-top:8.5em;
+    margin-left:.7em;
+
+}
+
+.regicide-text3
+{
+font-family: 'Bungee Shade', cursive;
+    font-size: 1.6em;
+    color:  #DAA520	;
+    position: absolute;
+    z-index:10;
+    margin-top:10em;
+    margin-left:1.3em;
+
+}
+
+.regicideshield {
+  position:absolute;
+  background:white;
+  width:20em;
+  height:20em;
+  margin-left:0em;
+  z-index:-2;
+}
+
+.crownjoint1 {
+  margin-left:3.3em;
+  margin-top:3em;
+  position:absolute;
+	width: 2em;
+	height: 2em;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.crownjoint2 {
+  margin-left:5.3em;
+  margin-top:3.7em;
+  position:absolute;
+	width: 2em;
+	height: 2em;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.crownjoint3 {
+  margin-left:7.3em;
+  margin-top:4.4em;
+  position:absolute;
+	width: 2em;
+	height: 2em;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.crownjoint4 {
+  margin-left:9.3em;
+  margin-top:5.1em;
+  position:absolute;
+	width: 2em;
+	height: 2em;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.crownjoint5 {
+  margin-left:11.3em;
+  margin-top:5.8em;
+  position:absolute;
+	width: 2em;
+	height: 2em;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.crownjoint6 {
+  margin-left:13.3em;
+  margin-top:6.5em;
+  position:absolute;
+	width: 2em;
+	height: 2em;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.crownjoint7 {
+  margin-left:15.3em;
+  margin-top:7.2em;
+  position:absolute;
+	width: 2em;
+	height: 2em;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.crown {
+  margin-left:2em;
+  margin-top:6em;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
+  position:absolute;
+  width: 15em;
+	height: 5em;
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);}
+
+.blooddrop {
+  margin-left:13em;
+  margin-top:11em;
+  position:absolute;
+  width: 2em;
+  height: 2em;
+  border-radius: 0 50% 50% 50%;
+  border: 3px solid red;
+  background: red;
+  transform: rotate(45deg);
+  animation-name: blooddropanimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  z-index:-1;
+}
+
+@keyframes blooddropanimation {
+    0%   {bottom:0em; top:0em;}
+    100% {bottom:0em; top:6em;}
+}
