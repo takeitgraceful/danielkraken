@@ -1,7 +1,40 @@
+<%= javascript_tag do %>
+overAge = function () {
+  $('#age-verify').addClass('hidden');
+}
+
+underAge = function () {
+  $('#age-verify').addClass('under');
+}
+
+goBack = function () {
+    window.history.back();
+}
+<% end %>
+<%= javascript_include_tag 'application' %>
+
+
+<div id="age-verify">
+<div class="window">
+  <span class="title">To visit our website, you must be of legal drinking age.</span>
+  <span class="title">Has your homeworld revolved around its
+    sun for 21 years or more since your birth?</span>
+  <button class="yes" onclick="overAge()">YES</button>
+  <button class="no" onclick="underAge()">NO</button>
+  <div class="underBox">
+    <span class="title">My sincerest regrets.</span>
+    <span class="title">You need to be at least 21 to visit our website.</span>
+    <button class="back" onclick="goBack()">RETREAT</button>
+  </div>
+<span>
+</div>
+</div>
+
 <div class="top-spacer">
 </div>
 
-</div>
+
+
 <div id="krakenlogo">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=FONT_NAME_YOU_PICKED"/>
 

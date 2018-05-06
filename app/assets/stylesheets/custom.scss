@@ -1,6 +1,129 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* age verification */
+
+/*
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+            radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+
+*/
+
+$font-stack: 'EB Garamond', serif;
+$transition: 500ms;
+$window-width: 500px;
+$window-height: 300px;
+$button-color: #000000;
+
+#age-verify {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(#000, 1);
+  transition: $transition;
+  .window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: $window-width;
+    height: $window-height;
+    overflow: hidden;
+    padding: 40px;
+    margin-left: -($window-width/2);
+    margin-top: -($window-height/2);
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    border:6px solid $button-color;
+    box-sizing: border-box;
+    box-shadow: 0 20px 60px rgba(#000,0.2);
+    transition: $transition;
+    span {
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: $font-stack;
+      &.title {
+        color: $button-color;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    button {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      width:48%;
+      height:60px;
+      color:#FFF;
+      font-size: 18px;
+      background-color: $button-color;
+
+      margin-top:20px;
+      font-family: $font-stack;
+      transform:scale(1);
+      transition: .2s;
+      &.back {
+        display:block;
+        float:none;
+        margin:auto;
+        background-color: #fff;
+        font-weight: bold;
+        color:$button-color !important;
+        margin-top:20px;
+        font-size: 38px;
+
+      }
+      &.yes {
+        float:left;
+        font-weight: bold;
+        font-size: 38px;
+      }
+      &.no {
+        float:right;
+        font-weight: bold;
+        font-size: 38px;
+
+      }
+      &:hover {
+        transform:scale(1.1);
+        box-shadow: 0 20px 60px rgba(#000,0.2);
+        background-color: lighten($button-color,10%);
+      }
+    }
+    .underBox {
+      position:absolute;
+      width: $window-width;
+      height: $window-height;
+      padding: 40px;
+      top:100%;
+      left:0;
+      right:0;
+      background-color: $button-color;
+      transition: $transition;
+      box-sizing:border-box;
+      * {
+        color:#FFF !important;
+      }
+    }
+  }
+  &.hidden {
+    opacity:0;
+    visibility: hidden;
+    .window {
+      transform:scale(0.5);
+    }
+  }
+  &.under {
+    .window .underBox {
+      top:0%;
+    }
+  }
+}
+
 /* forms */
 
 input, textarea, select, .uneditable-input {
@@ -218,6 +341,7 @@ color: black;
 
 
 .center-body {
+  z-index: 2;
   position: relative;
   width: 5em;
   margin-left: -2em;
@@ -1957,6 +2081,7 @@ of successive pieces of content will stack, not collapse.
 .center-div-kraken{
   margin: 0 auto;
   width:10vw;
+  z-index: 2;
 }
 
 .center-div{
@@ -2995,6 +3120,8 @@ a2.before:hover:before,a2.after:hover:after{
 /* Adding Dramatis Personae */
 
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+
 
 .dramatis {
   font-family: 'EB Garamond', serif;
