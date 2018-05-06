@@ -2091,10 +2091,6 @@ of successive pieces of content will stack, not collapse.
 
 /* Adding Hypersea */
 
-.center-div-seal-spirit-1{
-position:relative;
-float:left;
-}
 
 
 
@@ -2329,7 +2325,7 @@ text {
   position:absolute;
   background:#153466;
   width:20em;
-  height:8em;
+  height:4em;
   margin-top:16em;
   margin-left:0em;
 }
@@ -2982,35 +2978,23 @@ text {
 p.depths
 {
 font-family: 'Cinzel Decorative', cursive;
-    font-size: 1.4em;
+    font-size: 2.3em;
     color: white;
     position: absolute;
     z-index:10;
-    margin-top:12em;
-    margin-left:4.7em;
+    margin-left:2.2em;
 
 }
+
 
 p.depths2
 {
 font-family: 'Cinzel Decorative', cursive;
-    font-size: 1.4em;
+    font-size: 2.3em;
     color: white;
     position: absolute;
     z-index:10;
-    margin-top:13.5em;
-    margin-left:5.6em;
-}
-
-p.depths3
-{
-font-family: 'Cinzel Decorative', cursive;
-    font-size: 1.4em;
-    color: white;
-    position: absolute;
-    z-index:10;
-    margin-top:15em;
-    margin-left:4em;
+    margin-top:7em;
 }
 
 /* Adding Chapter Links */
