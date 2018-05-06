@@ -2094,7 +2094,6 @@ of successive pieces of content will stack, not collapse.
 .center-div-seal-spirit-1{
 position:relative;
 float:left;
-left:-7em;
 }
 
 
@@ -2294,7 +2293,6 @@ text {
   background:#ffffff;
   width:20em;
   height:20em;
-  margin-left:10em;
 }
 
 .wavecoveringleft {
@@ -2305,7 +2303,7 @@ text {
   width:4em;
   height:8em;
   z-index:20;
-  margin-left:6em;
+  margin-left:-4em;
 }
 
 .wavecoveringright {
@@ -2316,7 +2314,7 @@ text {
   width:4em;
   height:8em;
   z-index:20;
-  margin-left:30em;
+  margin-left:20em;
 }
 
 .blueshield {
