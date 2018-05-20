@@ -3147,6 +3147,222 @@ font-family: 'Modern Antiqua', cursive;
   }
 }
 
+/* Adding Tiger Farm */
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+
+.tigerfarm-title
+{
+font-family: 'Righteous', cursive;
+    top:1.3em;
+    position:absolute;
+    font-size: 4em;
+    color:green;
+    z-index:-1;
+    text-align: center;
+    position:absolute;
+}
+
+.tigerstraightening
+{
+position:relative;
+margin-right:1em;
+}
+
+.tigerfarmshield {
+  position:absolute;
+  background:#000000;
+  width:20em;
+  height:20em;
+  margin-left:0em;
+  z-index:-2;
+    background-image: repeating-linear-gradient(135deg, black, black 2em, #CC5500 2em, #CC5500 4em);
+  width:20em;
+  height:20em;
+  margin-left:0em;
+  z-index:-2;
+}
+
+
+.rightfangtop {
+		width: 2em;
+		height: 4em;
+		position: absolute;
+		right: 2em;
+		top: 4em;
+		border-radius: 0 0 100% 0;
+		transform: rotate(360deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.rightminifangtop1 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 5em;
+		top: 4em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(360deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.rightminifangtop1 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 5em;
+		top: 4em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(360deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.rightminifangtop2 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 7em;
+		top: 4em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(360deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.rightminifangtop3 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 10em;
+		top: 4em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(360deg)scaleX(-1);
+		border-right: 30px solid #f9f9ea;
+}
+
+.rightminifangtop4 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 12em;
+		top: 4em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(360deg)scaleX(-1);
+		border-right: 30px solid #f9f9ea;
+}
+
+.rightminifangtop1 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 5em;
+		top: 4em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(360deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.leftminifangtop1 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 5em;
+		top: 16em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(180deg)scaleX(-1);
+		border-right: 30px solid #f9f9ea;
+}
+
+.leftminifangtop2 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 7em;
+		top: 16em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(180deg)scaleX(-1);
+		border-right: 30px solid #f9f9ea;
+}
+
+.leftminifangtop3 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 10em;
+		top: 16em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(180deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.leftminifangtop4 {
+		width: 1em;
+		height: 2em;
+		position: absolute;
+		right: 12em;
+		top: 16em;
+		border-radius: 0 0 80% 0;
+		transform: rotate(180deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.leftfangtop {
+		width: 2em;
+		height: 4em;
+		position: absolute;
+		right: 14em;
+		top: 4em;
+		border-radius: 0 0 100% 0;
+		transform: rotate(360deg)scaleX(-1);
+		border-right: 30px solid #f9f9ea;
+}
+
+.leftfangbottom {
+		width: 2em;
+		height: 4em;
+		position: absolute;
+		right: 14em;
+		top: 14em;
+		border-radius: 0 0 100% 0;
+		transform: rotate(180deg);
+		border-right: 30px solid #f9f9ea;
+}
+
+.rightfangbottom {
+		width: 2em;
+		height: 4em;
+		position: absolute;
+		right: 2em;
+		top: 14em;
+		border-radius: 0 0 100% 0;
+		transform: rotate(180deg)scaleX(-1);
+		border-right: 30px solid #f9f9ea;
+}
+
+.stripeorange {
+  position:relative;
+  height: 1em;
+  background: orange;
+  max-width: inherit;
+    -webkit-animation: diagonal 2s infinite;
+    -moz-animation: diagonal 2s infinite;
+    -o-animation: diagonal 2s infinite;
+    animation: diagonal 2s infinite;
+}
+
+.stripeblack {
+  position:relative;
+  height: 1em;
+  width: 1em;
+  background: black;
+    -webkit-animation: diagonal 2s infinite;
+    -moz-animation: diagonal 2s infinite;
+    -o-animation: diagonal 2s infinite;
+    animation: diagonal 2s infinite;
+}
+
+
+
 /* Adding Chapter Links */
 
 
