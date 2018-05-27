@@ -33,7 +33,10 @@ deploy.config:
     - bundle exec rake assets:precompile RAILS_ENV=production
   before_live:
     web.main:
-      - bundle exec rake db:setup_or_migrate
+      - bundle exec rake db:setup
+      - chmod u+w /app/db/schema.rb
+      - bundle exec rake db:migrate
+
 
 #data.redis:
 #  image: nanobox/redis:3.0

@@ -10,10 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171225040801) do
+ActiveRecord::Schema.define(version: 20180527201823) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cards", force: :cascade do |t|
+    t.string "card_used"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
@@ -30,6 +36,8 @@ ActiveRecord::Schema.define(version: 20171225040801) do
     t.datetime "reset_sent_at"
     t.string "characterfirstname"
     t.string "characterlastname"
+    t.string "card_number"
+    t.string "team_name"
     t.string "characterseason"
     t.index ["email"], name: "index_users_on_email", unique: true
   end

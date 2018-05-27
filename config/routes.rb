@@ -10,15 +10,20 @@ Rails.application.routes.draw do
 
 
   root 'static_pages#home'
+
+
   get  '/ales',    to: 'users#ales'
   get  '/spirits',    to: 'users#spirits'
   get  '/story',    to: 'users#story'
-  get  '/prologue',    to: 'users#prologue'
-  get  '/pocketwatch',    to: 'users#pocketwatch'
-  get  '/seasons',    to: 'users#seasons'
   get  '/about',   to: 'static_pages#about'
   get  '/contact', to: 'static_pages#contact'
   get  '/signup',  to: 'users#new'
+  get  '/prologue',    to: 'users#prologue'
+  get  '/leviathan_bread',    to: 'users#leviathan_bread'
+  get  '/pocketwatch',    to: 'users#pocketwatch'
+  get  '/seasons',    to: 'users#seasons'
+
+
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'

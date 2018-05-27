@@ -3457,19 +3457,19 @@ a2.before:before,a2.after:after{
 a2.before:hover:before,a2.after:hover:after{
   width:100%;
 }
-.square2{
+.square-red{
   box-sizing:border-box;
   margin-left:-0.4em;
   position:relative;
   font-size:3em;
   overflow:hidden;
 }
-.square2 a2{
+.square-red a2{
   position:static;
   font-size:100%;
   padding:0.2em 0.4em;
 }
-.square2:before,.square2:after{
+.square-red:before,.square-red:after{
   content: "";
   box-sizing:border-box;
   transition:0.25s all ease;
@@ -3480,37 +3480,95 @@ a2.before:hover:before,a2.after:hover:after{
   height:25%;
   background: #FF4500;
 }
-.square2:before{
+.square-red:before{
   left:0;
   bottom:-0.2em;
 }
-.square2.individual:before{
+.square-red.individual:before{
   transition-delay:0.6s;
 }
-.square2:after{
+.square-red:after{
   right:0;
   top:-0.2em;
 }
-.square2.individual:after{
+.square-red.individual:after{
   transition-delay:0.2s;
 }
-.square2 a2:before{
+.square-red a2:before{
   left:0;
   transition:0.25s all ease;
 }
-.square2 a2:after{
+.square-red a2:after{
   right:0;
   transition:0.25s all ease;
 }
-.square2.individual a2:after{
+.square-red.individual a2:after{
   transition:0.25s all ease 0.4s;
 }
-.square2:hover:before,.square2:hover:after{
+.square-red:hover:before,.square-red:hover:after{
   height:calc(100% + 0.4em);
 }
-.square2:hover a2:before,.square2:hover a2:after{
+.square-red:hover a2:before,.square-red:hover a2:after{
   width:100%;
 }
+
+/*square-yellow*/
+
+.square-yellow{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-yellow a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-yellow:before,.square-yellow:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: yellow;
+}
+.square-yellow:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-yellow.individual:before{
+  transition-delay:0.6s;
+}
+.square-yellow:after{
+  right:0;
+  top:-0.2em;
+}
+.square-yellow.individual:after{
+  transition-delay:0.2s;
+}
+.square-yellow a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-yellow a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-yellow.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-yellow:hover:before,.square-yellow:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-yellow:hover a2:before,.square-yellow:hover a2:after{
+  width:100%;
+}
+
 
 /* Adding Dramatis Personae */
 
