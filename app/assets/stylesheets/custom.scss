@@ -2027,9 +2027,9 @@ of successive pieces of content will stack, not collapse.
 @supports (display: grid) {
   @media only screen and (min-width: 600px) {
     .post {
-      max-width: 900px;
-      margin-right: auto;
-      margin-left: 9em;
+      max-width: 40em;
+      margin-right: 5em;
+      margin-left: 10em;
 
       display: grid;
       grid-column-gap: 1.5rem;
