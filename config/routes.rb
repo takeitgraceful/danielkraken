@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   get  '/signup',  to: 'users#new'
   get  '/prologue',    to: 'users#prologue'
   get  '/leviathan_bread',    to: 'users#leviathan_bread'
+  get  '/daniel_cries',    to: 'users#daniel_cries'
   get  '/pocketwatch',    to: 'users#pocketwatch'
   get  '/seasons',    to: 'users#seasons'
 

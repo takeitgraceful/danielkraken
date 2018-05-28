@@ -333,6 +333,21 @@ footer ul li {
 color: black;
 }
 
+.red_intro {
+  color: #FF4500;
+  font-size: 5em;
+}
+
+.yellow_intro {
+  color: #DAA520;
+  font-size: 5em;
+}
+
+.purple_intro {
+  color: #66023c;
+  font-size: 5em;
+}
+
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
@@ -347,8 +362,13 @@ color: black;
   margin-left: -2em;
 }
 
+
 .top-spacer {
   margin-top: 15em;
+}
+
+.top-spacer-chapter-intro {
+  margin-top: 3em;
 }
 
 .top-spacer-ales {
@@ -3571,6 +3591,63 @@ a2.before:hover:before,a2.after:hover:after{
   width:100%;
 }
 
+
+/*square-purple*/
+
+.square-purple{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-purple a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-purple:before,.square-purple:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #66023c;
+}
+.square-purple:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-purple.individual:before{
+  transition-delay:0.6s;
+}
+.square-purple:after{
+  right:0;
+  top:-0.2em;
+}
+.square-purple.individual:after{
+  transition-delay:0.2s;
+}
+.square-purple a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-purple a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-purple.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-purple:hover:before,.square-purple:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-purple:hover a2:before,.square-purple:hover a2:after{
+  width:100%;
+}
 
 /* Adding Dramatis Personae */
 
@@ -7043,4 +7120,18 @@ font-family: 'Skranji', cursive;
   margin-left:-4em;
   position:absolute;
   z-index:5;
+}
+
+.bot_led {
+	   font-family:'ds-digitalbold_italic';
+	   font-size:35px;
+	   color:#EB1A1A;
+}
+
+
+/*Adding Fonts*/
+
+@font-face {
+    font-family: 'ds-digitalbold_italic';
+    src: asset-url('fonts/DS-DIGI.TTF') format('truetype');
 }
