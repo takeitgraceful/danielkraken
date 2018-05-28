@@ -23,6 +23,7 @@
         for your character. Before you slake your thirst for story in the
         land of Daniel Kraken, let us take a wee dram of you:
       </p>
+    </main>
     </div>
       <% provide(:button_text, 'Save changes') %>
       <h1 class="gold2">Choose Your Name</h1>
@@ -45,15 +46,14 @@
         diving into the story.
       </p>
     </article>
+    <div class="wrapper">
+      <h1 class="square-red">
+        <a2 class="before after gold2">
+        <%= link_to "Prologue", prologue_path(current_user) %>
+        </a2>
+      </h1>
     </div>
-
 </main>
-</body>
-<div class="wrapper">
-  <h1 class="square2">
-    <a2 class="before after gold2">
-    <%= link_to "Prologue", prologue_path(current_user) %>
-    </a2>
-  </h1>
 </div>
+</body>
 </html>

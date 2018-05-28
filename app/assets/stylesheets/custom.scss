@@ -1977,7 +1977,7 @@ pre {
 
 figcaption,
 .side-note {
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 1.875;
   font-style: italic;
 }
@@ -1986,6 +1986,8 @@ figcaption,
   border-left: 5px solid #FF4500;
   padding-left: 1.5rem;
 }
+
+
 .side-note::before {
   content: '';
   font-style: normal;
@@ -1993,7 +1995,7 @@ figcaption,
   margin-right: 0.3em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .side-note {
     margin-left: 1.5rem;
   }
@@ -2025,9 +2027,9 @@ of successive pieces of content will stack, not collapse.
 @supports (display: grid) {
   @media only screen and (min-width: 600px) {
     .post {
-      max-width: 600px;
+      max-width: 900px;
       margin-right: auto;
-      margin-left: auto;
+      margin-left: 9em;
 
       display: grid;
       grid-column-gap: 1.5rem;
@@ -3535,7 +3537,7 @@ a2.before:hover:before,a2.after:hover:after{
   position:absolute;
   width:35%;
   height:25%;
-  background: yellow;
+  background: #DAA520;
 }
 .square-yellow:before{
   left:0;
