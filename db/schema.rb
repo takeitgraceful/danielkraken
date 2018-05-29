@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180527201823) do
+ActiveRecord::Schema.define(version: 20180528230552) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20180527201823) do
     t.string "card_number"
     t.string "team_name"
     t.string "characterseason"
+    t.string "charactershipname"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

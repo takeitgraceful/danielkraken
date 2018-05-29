@@ -348,6 +348,22 @@ color: black;
   font-size: 5em;
 }
 
+.blue_intro {
+  color: #6495ed;
+  font-size: 5em;
+}
+
+.green_intro {
+  color: #00ff7f;
+  font-size: 5em;
+}
+
+.gray_intro {
+  color: #C0C0C0	;
+  font-size: 5em;
+}
+
+
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
@@ -3647,6 +3663,348 @@ a2.before:hover:before,a2.after:hover:after{
 }
 .square-purple:hover a2:before,.square-purple:hover a2:after{
   width:100%;
+}
+
+/*square-blue*/
+
+.square-blue{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-blue a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-blue:before,.square-blue:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #6495ed;
+}
+.square-blue:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-blue.individual:before{
+  transition-delay:0.6s;
+}
+.square-blue:after{
+  right:0;
+  top:-0.2em;
+}
+.square-blue.individual:after{
+  transition-delay:0.2s;
+}
+.square-blue a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-blue a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-blue.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-blue:hover:before,.square-blue:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-blue:hover a2:before,.square-blue:hover a2:after{
+  width:100%;
+}
+
+/*square-blue*/
+
+.square-blue{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-blue a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-blue:before,.square-blue:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #6495ed;
+}
+.square-blue:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-blue.individual:before{
+  transition-delay:0.6s;
+}
+.square-blue:after{
+  right:0;
+  top:-0.2em;
+}
+.square-blue.individual:after{
+  transition-delay:0.2s;
+}
+.square-blue a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-blue a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-blue.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-blue:hover:before,.square-blue:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-blue:hover a2:before,.square-blue:hover a2:after{
+  width:100%;
+}
+
+/*square-green*/
+
+.square-green{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-green a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-green:before,.square-green:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #00ff7f;
+}
+.square-green:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-green.individual:before{
+  transition-delay:0.6s;
+}
+.square-green:after{
+  right:0;
+  top:-0.2em;
+}
+.square-green.individual:after{
+  transition-delay:0.2s;
+}
+.square-green a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-green a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-green.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-green:hover:before,.square-green:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-green:hover a2:before,.square-green:hover a2:after{
+  width:100%;
+}
+
+/*square-blue*/
+
+.square-blue{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-blue a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-blue:before,.square-blue:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #6495ed;
+}
+.square-blue:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-blue.individual:before{
+  transition-delay:0.6s;
+}
+.square-blue:after{
+  right:0;
+  top:-0.2em;
+}
+.square-blue.individual:after{
+  transition-delay:0.2s;
+}
+.square-blue a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-blue a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-blue.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-blue:hover:before,.square-blue:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-blue:hover a2:before,.square-blue:hover a2:after{
+  width:100%;
+}
+
+/*square-gray*/
+
+.square-gray{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-gray a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-gray:before,.square-gray:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #C0C0C0;
+}
+.square-gray:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-gray.individual:before{
+  transition-delay:0.6s;
+}
+.square-gray:after{
+  right:0;
+  top:-0.2em;
+}
+.square-gray.individual:after{
+  transition-delay:0.2s;
+}
+.square-gray a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-gray a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-gray.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-gray:hover:before,.square-gray:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-gray:hover a2:before,.square-gray:hover a2:after{
+  width:100%;
+}
+
+/* Adding Kraken Menu */
+
+.logo {
+  background: url(http://iwillnottakethisgracefully.com/images/mb_wreath.svg) no-repeat center;
+}
+
+.kraken_menu-title{
+    font-family: 'EB Garamond', serif;
+    position:absolute;
+    font-weight:bold;
+    top:0em;
+    font-size: 4em;
+    z-index:-1;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    color:  black	;
+}
+
+.kraken_menu-header{
+    font-family: 'EB Garamond', serif;
+    font-weight:bold;
+    margin-top:1em;
+    font-size: 1.5em;
+    z-index:-1;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    position:relative;
+    color:  black	;
+}
+
+.kraken_menu-subtitle{
+    font-family: 'EB Garamond', serif;
+    position:absolute;
+    font-weight:bold;
+    top:0em;
+    font-size: 1em;
+    z-index:-1;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    color:  black	;
+}
+
+.kraken_menu {
+  position:relative;
+  background:#98ff98;
+  width:20em;
+  height:43em;
+  margin-left:auto;
+  margin-right:auto;
+  z-index:-2;
 }
 
 /* Adding Dramatis Personae */
@@ -7124,8 +7482,11 @@ font-family: 'Skranji', cursive;
 
 .bot_led {
 	   font-family:'ds-digitalbold_italic';
-	   font-size:35px;
-	   color:#EB1A1A;
+	   font-size:4em;
+     text-align: center;
+	   color:#800020;
+     margin-top:1em;
+     margin-bottom:1em;
 }
 
 

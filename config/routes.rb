@@ -21,6 +21,9 @@ Rails.application.routes.draw do
   get  '/prologue',    to: 'users#prologue'
   get  '/leviathan_bread',    to: 'users#leviathan_bread'
   get  '/daniel_cries',    to: 'users#daniel_cries'
+  get  '/bolide_rodeo',    to: 'users#bolide_rodeo'
+  get  '/saltlick_jukebox',    to: 'users#saltlick_jukebox'
+  get  '/boardroom',    to: 'users#boardroom'
   get  '/pocketwatch',    to: 'users#pocketwatch'
   get  '/seasons',    to: 'users#seasons'
 

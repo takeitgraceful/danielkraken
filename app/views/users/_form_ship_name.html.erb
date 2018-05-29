@@ -1,0 +1,17 @@
+<%= form_for(@user= current_user) do |f| %>
+  <%= render 'shared/error_messages', object: @user %>
+
+  <%= f.label :characterfirstname,"Select Your Ship" %>
+  <div class="fontcolor-black">
+  <%= f.select :charactershipname, [
+    'H.M.S. Mutiny',
+    'H.M.S. Manspreader',
+    'H.M.S. Unrequited',
+    'H.M.S. Underestimator',
+    'H.M.S. Hangover Cure',
+    'H.M.S. America’s Funniest Home Videos'
+ ]%>
+</div>
+
+  <%= f.submit yield(:button_text), class: "btn-lg gold3 white3" %>
+<% end %>

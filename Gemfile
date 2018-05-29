@@ -7,6 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'inline_svg'
 gem 'rails_real_favicon'
 gem 'sendgrid-ruby'
 gem 'rails', '~> 5.1.4'
