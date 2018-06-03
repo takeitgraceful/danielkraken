@@ -363,6 +363,11 @@ color: black;
   font-size: 5em;
 }
 
+.royal-blue_intro {
+  color: #000080	;
+  font-size: 5em;
+}
+
 
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
@@ -2064,8 +2069,8 @@ of successive pieces of content will stack, not collapse.
   @media only screen and (min-width: 600px) {
     .post {
       max-width: 40em;
-      margin-right: 5em;
-      margin-left: 10em;
+      margin-left:auto;
+      margin-right:auto;
 
       display: grid;
       grid-column-gap: 1.5rem;
@@ -3949,6 +3954,65 @@ a2.before:hover:before,a2.after:hover:after{
 .square-gray:hover a2:before,.square-gray:hover a2:after{
   width:100%;
 }
+
+/* Adding square-royal-blue */
+
+
+.square-royal-blue{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:3em;
+  overflow:hidden;
+}
+.square-royal-blue a2{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+}
+.square-royal-blue:before,.square-royal-blue:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:35%;
+  height:25%;
+  background: #000080;
+}
+.square-royal-blue:before{
+  left:0;
+  bottom:-0.2em;
+}
+.square-royal-blue.individual:before{
+  transition-delay:0.6s;
+}
+.square-royal-blue:after{
+  right:0;
+  top:-0.2em;
+}
+.square-royal-blue.individual:after{
+  transition-delay:0.2s;
+}
+.square-royal-blue a2:before{
+  left:0;
+  transition:0.25s all ease;
+}
+.square-royal-blue a2:after{
+  right:0;
+  transition:0.25s all ease;
+}
+.square-royal-blue.individual a2:after{
+  transition:0.25s all ease 0.4s;
+}
+.square-royal-blue:hover:before,.square-royal-blue:hover:after{
+  height:calc(100% + 0.4em);
+}
+.square-royal-blue:hover a2:before,.square-royal-blue:hover a2:after{
+  width:100%;
+}
+
 
 /* Adding Kraken Menu */
 
@@ -7496,3 +7560,6 @@ font-family: 'Skranji', cursive;
     font-family: 'ds-digitalbold_italic';
     src: asset-url('fonts/DS-DIGI.TTF') format('truetype');
 }
+
+
+/*Adding Ship Names*/

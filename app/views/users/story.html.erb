@@ -33,7 +33,6 @@
           <%= render 'form_character_name' %>
         </div>
       </div>
-      <div>
       <main class="page-content">
           <article class="post">
       <p class="has-side-note">
@@ -47,14 +46,14 @@
         diving into the story.
       </p>
     </article>
-    <div class="wrapper">
-      <h1 class="square-red">
-        <a2 class="before after gold2">
-        <%= link_to "Prologue", prologue_path(current_user) %>
-        </a2>
-      </h1>
-    </div>
+  </div>
 </main>
-</div>
 </body>
+<div class="wrapper">
+  <h1 class="square-red">
+    <a2 class="before after gold2">
+    <%= link_to "Prologue", prologue_path(current_user) %>
+    </a2>
+  </h1>
+</div>
 </html>

@@ -1,0 +1,38 @@
+<% provide(:title, "Chapter 6: Sailing to Mount Oligarch") %>
+<% @user= current_user %>
+<h1 class="gold2">Chapter 6</h1>
+<h1 class="gold2">Sailing to Mount Oligarch on the
+  <% if @user.charactershipname == "shipnamemutiny" %>
+      <p id="mutinytxt">H.M.S. Mutiny</p>
+      <% end %>
+  <% if @user.charactershipname == "shipnamemanspreader" %>
+      <p id="mutinytxt">H.M.S. Manspreader</p>
+      <% end %>
+      <% if @user.charactershipname == "shipnameunrequited" %>
+          <p id="mutinytxt">H.M.S. Unrequited</p>
+          <% end %>
+          <% if @user.charactershipname == "shipnameunderestimator" %>
+              <p id="mutinytxt">H.M.S. Underestimator</p>
+              <% end %>
+              <% if @user.charactershipname == "shipnamehangovercure" %>
+                  <p id="mutinytxt">H.M.S. Hangover Cure</p>
+                  <% end %>
+                  <% if @user.charactershipname == "shipnameafhv" %>
+                      <p id="mutinytxt">H.M.S. America’s Funniest Home Videos</p>
+                      <% end %>
+</h1>
+<div class="top-spacer-chapter-intro"></div>
+<!--
+      <h1>Article Layout with Varying Content Width Using CSS Grid</h1>
+-->
+<div>
+  <%= render @user.charactershipname %>
+</div>
+<div class="wrapper">
+  <h1 class="square-royal-blue">
+    <a2 class="before after gold2">
+    <%= link_to "Prologue", prologue_path(current_user) %>
+    </a2>
+  </h1>
+</div>
+</html>
