@@ -10,7 +10,7 @@
       <h1>Article Layout with Varying Content Width Using CSS Grid</h1>
 -->
       <p>
-        <span class="red_intro">D</span>aniel somehow his huge pocketwatch in
+        <span class="red_intro">D</span>aniel somehow held his huge pocketwatch
         steadily in his small, fine boned hands:
       </p>
     </article>
@@ -20,7 +20,157 @@
 <div>
   <%= render 'pocketwatch' %>
 </div>
-
+<main class="page-content">
+    <article class="post">
+<!--
+      <h1>Article Layout with Varying Content Width Using CSS Grid</h1>
+-->
+      <p>
+        <% if @user.characterseason == "STERLING" %>
+            <p id="mutinytxt">“Aha! Perfect," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "BACCHANAL ROUGE" %>
+            <p id="mutinytxt">“Merlot Bot my boy! You’ll be invincible!" said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "BANNERMAN" %>
+            <p id="mutinytxt">“Let’s make spears for all my rowdy constituents," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "LAMPLIGHTER" %>
+            <p id="mutinytxt">“Gonna guide that pig to his grave," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "CARAMEL" %>
+            <p id="mutinytxt">“Now I will oversee the crucifixion of a certain Sgt. Stickyhooves," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "BABEL" %>
+            <p id="mutinytxt">“They’ll be time enough for talk then," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "THIEF" %>
+            <p id="mutinytxt">“How apropos. Him being an enormous rascal eating into my profits and all," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "WHISTLE" %>
+            <p id="mutinytxt">“They’ll be calling him the Whistle Piglet by the time we’re done with him," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "GOLIATH" %>
+            <p id="mutinytxt">“You know what they say. The bigger they are the stinkier their buttholes," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "MIDWIFE" %>
+            <p id="mutinytxt">“A month of birth becomes, ironically, a month of slaughter," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "CHALLENGE" %>
+            <p id="mutinytxt">“I’m paying the team extra to lay off the crunches," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "TORRENT" %>
+            <p id="mutinytxt">“Boars love mud," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "WOOLPULLER" %>
+            <p id="mutinytxt">“Aha! Tricks are 30% more effective! He won’t know what hit him," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "WITNESS" %>
+            <p id="mutinytxt">“TMZ’s going to be all over this hunt," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "SPITTOON" %>
+            <p id="mutinytxt">“A filthy month for a filthy animal," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "BRIDLE" %>
+            <p id="mutinytxt">“Ah my favorite month. A toast to total control," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "HONEYSUCKLE" %>
+            <p id="mutinytxt">“The sweet smell of success," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "FANG" %>
+            <p id="mutinytxt">“Thank goodness we’re hunting an omnivore this time," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "DOTARD" %>
+            <p id="mutinytxt">“Age has its privileges," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "CLOVER" %>
+            <p id="mutinytxt">“Four leaf for me, three leaf for him," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "BACCHANAL BLANC" %>
+            <p id="mutinytxt">“My least favorite month," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "SHATTER" %>
+            <p id="mutinytxt">“It’s my bones versus his," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "NITPICKER" %>
+            <p id="mutinytxt">“Are we sure it’s not a javelina? Our hunting permit will come under intense scrutiny during this month," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "PETULANCE" %>
+            <p id="mutinytxt">“Hmph. It would be that month," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "ICONOCLAST" %>
+            <p id="mutinytxt">“Goddamn it. Advantage boar," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "NEOPHYTE" %>
+            <p id="mutinytxt">“Damn tradition! Don’t bring any trainees on this hunt," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "HEAVENS" %>
+            <p id="mutinytxt">“Jeeze Louise, who knows what we’ll encounter on this hunt," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "PURE ABJECT TERROR" %>
+            <p id="mutinytxt">“Jesus fucking Christ," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "NAÏF" %>
+            <p id="mutinytxt">“Wow we are gonna slaughter that widdle babeh boar!" said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "ROUSTABOUT" %>
+            <p id="mutinytxt">“Stalwart, we can grab a lot of cheap labor then. We can pay those idiots in ale!" said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "BUTTERSCOTCH" %>
+            <p id="mutinytxt">“Gonna drizzle that over some boar steak.” said Daniel, smacking his lips."</p>
+        <% end %>
+        <% if @user.characterseason == "SLATE" %>
+            <p id="mutinytxt">“At least it’s not Shatter," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "ENTICER" %>
+            <p id="mutinytxt">“At least he’ll be easier to trap," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "RAM" %>
+            <p id="mutinytxt">“Well then. We charge forward. Come what may," said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "SAFFRON" %>
+            <p id="mutinytxt">“Ugh. It’s almost too expensive to mount a mission then,” said Daniel.</p>
+        <% end %>
+        <% if @user.characterseason == "ENDURE" %>
+            <p id="mutinytxt">“And so we must," said Daniel.</p>
+        <% end %>
+<!--
+            'ROUSTABOUT',
+            'NAÏF',
+            'PURE ABJECT TERROR',
+            'OH HEAVENS',
+            'NEOPHYTE',
+            'ICONOCLAST',
+            'PETULANCE',
+            'NITPICKER',
+            'SHATTER',
+            'BACCHANAL BLANC',
+            'CLOVER',
+            'DOTARD',
+            'FANG',
+            'HONEYSUCKLE',
+            'BRIDLE',
+            'SPITTOON',
+            'FALSE WITNESS',
+            'WOOLPULLER',
+            'TORRENT',
+            'AB CHALLENGE',
+            'MIDWIFE',
+            'GOLIATH',
+            'WHISTLE',
+            'THIEF',
+            'BABEL',
+            'ENDURE',
+            'CARAMEL',
+            'LAMPLIGHTER',
+            'BANNERMAN',
+            'BACCHANAL ROUGE'
+          -->
+      </p>
+    </article>
+  </div>
+</main>
+</body>
 
 <div style="position:static;">
 <div class="wrapper">
