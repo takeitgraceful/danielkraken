@@ -25,7 +25,7 @@ Rails.application.routes.draw do
   get  '/saltlick_jukebox',    to: 'users#saltlick_jukebox'
   get  '/boardroom',    to: 'users#boardroom'
   get  '/sailing_to_mount_oligarch',    to: 'users#sailing_to_mount_oligarch'
-  get  '/pocketwatch',    to: 'users#pocketwatch'
+  get  '/merlot_bot_hatches_a_plan',    to: 'users#merlot_bot_hatches_a_plan'
   get  '/seasons',    to: 'users#seasons'
 
 
