@@ -1,6 +1,9 @@
+<%= javascript_include_tag 'application' %>
+<%= javascript_include_tag 'js.cookie.js' %>
+
 <%= javascript_tag do %>
 overAge = function () {
-  $('#age-verify').addClass('hidden');
+  $('#age-verify').addClass('hidden')
 }
 
 underAge = function () {
@@ -10,16 +13,17 @@ underAge = function () {
 goBack = function () {
     window.history.back();
 }
+
+
+
+
 <% end %>
-<%= javascript_include_tag 'application' %>
-
-
 <div id="age-verify">
 <div class="window">
   <span class="title">To visit our website, you must be of legal drinking age.</span>
   <span class="title">Has your homeworld revolved around its
     sun for 21 years or more since your birth?</span>
-  <button class="yes" onclick="overAge()">YES</button>
+  <button id="yesbutton" class="yes" onclick="overAge()">YES</button>
   <button class="no" onclick="underAge()">NO</button>
   <div class="underBox">
     <span class="title">My sincerest regrets.</span>

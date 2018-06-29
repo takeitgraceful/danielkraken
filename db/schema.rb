@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180528230552) do
+ActiveRecord::Schema.define(version: 20180629045313) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,12 +34,12 @@ ActiveRecord::Schema.define(version: 20180528230552) do
     t.datetime "activated_at"
     t.string "reset_digest"
     t.datetime "reset_sent_at"
-    t.string "characterfirstname"
-    t.string "characterlastname"
+    t.string "characterfirstname", default: "Able"
+    t.string "characterlastname", default: "Antigua"
     t.string "card_number"
     t.string "team_name"
-    t.string "characterseason"
-    t.string "charactershipname"
+    t.string "characterseason", default: "STERLING"
+    t.string "charactershipname", default: "shipnamemutiny"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

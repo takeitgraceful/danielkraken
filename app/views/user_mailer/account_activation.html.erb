@@ -3,15 +3,16 @@
 <p>Hi <%= @user.name %>,</p>
 
 <p>
-Thank you for registering for DMB Loyalty! Click on the link below to activate your account:
+Welcome to the world of Daniel Kraken!  Click on the link below to activate your account:
 </p>
 
 <%= link_to "Activate", edit_account_activation_url(@user.activation_token,
                                                     email: @user.email) %>
 <p>
-The instructional PDF in this email can walk you through using your card:
+  You can track the fantastic progress of Kraken Inc.'s newest offering, Hypersea, in the
+  attached document:
 </p>
 <p>
-  <%= link_to 'DMB Loyalty Walkthrough', root_url+'dmbloyalty_welcome.pdf', { target: '_blank' } %>
+  <%= link_to 'Hypersea Quarterly Report', root_url+'dk_hypersea_quarterly_report.pdf', { target: '_blank' } %>
 
 </p>
