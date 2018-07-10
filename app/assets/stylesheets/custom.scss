@@ -3473,7 +3473,95 @@ font-family: 'Carter One', cursive;
 
 .nomargin{
   padding-top: 0em;
+  background: linear-gradient(270deg, #1c0144, #1c0144, #1c0144, #322ccc, pink);
+background-size: 1000% 1000%;
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
 }
+
+.starsbackground {
+background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+#risingmoon {
+	width: 5em;
+	height: 5em;
+	background: white;
+  z-index:-1;
+	-moz-border-radius: 5em;
+	-webkit-border-radius: 5em;
+	border-radius: 5em;
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
+@keyframes moonrise {
+    0%   {top:60%; left:0%;}
+    33%  {top:0; left:10%; }
+    66%  {top:0; left:20%; }
+    100% {top:60%; left:50%; }
+}
+
+#risingsun {
+	width: 15em;
+	height: 15em;
+	background: orange;
+  z-index:-1;
+	-moz-border-radius: 10em;
+	-webkit-border-radius: 10em;
+	border-radius: 10em;
+  position:absolute;
+  top:0;
+  right:40%;
+  animation:sunrise 30s infinite;
+}
+
+@keyframes sunrise {
+    0%  {top:40%; left: 30%; }
+    10% {top:40%; left: 30%; }
+    20% {top:40%; left: 30%; }
+    30% {top:40%; left: 30%; }
+    40% {top:40%; left: 30%; }
+    50% {top:40%; left: 30%; }
+    60% {top:40%; left: 30%; }
+    65% {top:40%; left: 30%; }
+    70% {top:30%; left: 30%; }
+    75% {top:25%; left: 30%; }
+    80% {top:20%;  left: 30%; }
+    85% {top:20%; left: 30%; }
+    90% {top:20%; left: 30%; }
+    95% {top:5%; left: 30%; }
+    100% {top:0%; left: 30%; }
+}
+
+
+
 
 .wrapper{
 }
