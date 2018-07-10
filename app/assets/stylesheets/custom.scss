@@ -10,6 +10,22 @@ background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%,
 
 */
 
+/* Adding World Map */
+
+.world_map {
+  /* The image used */
+background-image: url("http://iwillnottakethisgracefully.com/images/kraken_worldmap.png");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
 $font-stack: 'EB Garamond', serif;
 $transition: 500ms;
 $window-width: 500px;
@@ -393,7 +409,6 @@ color: black;
 .top-spacer-ales {
   margin-top: 25em;
 }
-
 body {
   background: black;
   padding-top: 60px;
@@ -3456,11 +3471,10 @@ font-family: 'Carter One', cursive;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body2{
-  font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
-  background:black;
-  margin-left:0 auto;
+.nomargin{
+  padding-top: 0em;
 }
+
 .wrapper{
 }
 a2,a2:visited,a2:hover,a2:active{

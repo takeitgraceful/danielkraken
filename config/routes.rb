@@ -27,6 +27,8 @@ Rails.application.routes.draw do
   get  '/sailing_to_mount_oligarch',    to: 'users#sailing_to_mount_oligarch'
   get  '/merlot_bot_hatches_a_plan',    to: 'users#merlot_bot_hatches_a_plan'
   get  '/seasons',    to: 'users#seasons'
+  get  '/world_map',    to: 'cards#world_map'
+
 
 
   get    '/login',   to: 'sessions#new'
