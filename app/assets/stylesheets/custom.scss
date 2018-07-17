@@ -3576,7 +3576,33 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 }
 
 #greenskull {
-  background: url(http://iwillnottakethisgracefully.com/images/green_skull.svg) no-repeat center;
+  background: url(http://iwillnottakethisgracefully.com/images/green_skull.png) no-repeat center;
+	width: 7em;
+	height: 10em;
+  margin: 0 auto;
+  z-index:-1;
+  /* border-right: 1em solid crimson; */
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
+#discoball {
+  background: url(http://iwillnottakethisgracefully.com/images/disco_ball.png) no-repeat center;
+	width: 10em;
+	height: 10em;
+  margin: 0 auto;
+  z-index:-1;
+  /* border-right: 1em solid crimson; */
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
+#predatormoon {
+  background: url(http://iwillnottakethisgracefully.com/images/predatormoon.png) no-repeat center;
 	width: 5em;
 	height: 5em;
   margin: 0 auto;
