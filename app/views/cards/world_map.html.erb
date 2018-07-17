@@ -1,10 +1,8 @@
-
+<% provide(:title, "The Known World") %>
+<% @user= current_user %>
 <div class= "world_map">
 
-  <div id="risingmoon">
+  <div id="<%= @user.moontype %>">
 </div>
-<!--
-<div id="risingsun">
-</div>
--->
+
 </div>

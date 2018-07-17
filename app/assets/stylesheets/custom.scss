@@ -3507,7 +3507,9 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 }
 
 
-#risingmoon {
+#plainwhite {
+  box-shadow:
+  0 0 60px 30px #fff;  /* inner white */
 	width: 5em;
 	height: 5em;
 	background: white;
@@ -3515,6 +3517,71 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 	-moz-border-radius: 5em;
 	-webkit-border-radius: 5em;
 	border-radius: 5em;
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
+#hugeblue {
+  box-shadow:
+         0 0 60px 30px #0ff,  /* inner white */;
+	width: 10em;
+	height: 10em;
+	background: #4169e1;
+  z-index:-1;
+	-moz-border-radius: 20em;
+	-webkit-border-radius: 20em;
+	border-radius: 20em;
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
+#redcrescent {
+  box-shadow:
+         0 0 60px 30px crimson;  /* inner white */
+	width: 5em;
+	height: 5em;
+  margin: 0 auto;
+  /* border-right: 1em solid crimson; */
+  box-shadow: 8px 0 0 4px crimson;
+  border-radius: 100%;  z-index:-1;
+	-moz-border-radius: 20em;
+	-webkit-border-radius: 20em;
+	border-radius: 20em;
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
+#goldcrescent {
+  box-shadow:
+         0 0 60px 30px gold;  /* inner white */
+	width: 5em;
+	height: 5em;
+  margin: 0 auto;
+  /* border-right: 1em solid crimson; */
+  box-shadow: 8px 0 0 4px gold;
+  border-radius: 100%;  z-index:-1;
+	-moz-border-radius: 20em;
+	-webkit-border-radius: 20em;
+	border-radius: 20em;
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
+#greenskull {
+  background: url(http://iwillnottakethisgracefully.com/images/green_skull.svg) no-repeat center;
+	width: 5em;
+	height: 5em;
+  margin: 0 auto;
+  z-index:-1;
+  /* border-right: 1em solid crimson; */
   position:absolute;
   top:0;
   left:40%;
@@ -3529,8 +3596,8 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 }
 
 #risingsun {
-	width: 15em;
-	height: 15em;
+	width: 10em;
+	height: 10em;
 	background: orange;
   z-index:-1;
 	-moz-border-radius: 10em;
@@ -3543,14 +3610,14 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 }
 
 @keyframes sunrise {
-    0%  {top:40%; left: 30%; }
-    10% {top:40%; left: 30%; }
-    20% {top:40%; left: 30%; }
-    30% {top:40%; left: 30%; }
-    40% {top:40%; left: 30%; }
-    50% {top:40%; left: 30%; }
-    60% {top:40%; left: 30%; }
-    65% {top:40%; left: 30%; }
+    0%  {top:60%; left: 30%; }
+    10% {top:60%; left: 30%; }
+    20% {top:60%; left: 30%; }
+    30% {top:60%; left: 30%; }
+    40% {top:60%; left: 30%; }
+    50% {top:60%; left: 30%; }
+    60% {top:60%; left: 30%; }
+    65% {top:60%; left: 30%; }
     70% {top:30%; left: 30%; }
     75% {top:25%; left: 30%; }
     80% {top:20%;  left: 30%; }

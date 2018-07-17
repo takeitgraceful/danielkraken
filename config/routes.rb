@@ -26,6 +26,16 @@ Rails.application.routes.draw do
   get  '/boardroom',    to: 'users#boardroom'
   get  '/sailing_to_mount_oligarch',    to: 'users#sailing_to_mount_oligarch'
   get  '/merlot_bot_hatches_a_plan',    to: 'users#merlot_bot_hatches_a_plan'
+  get  '/wild_white_automoton',    to: 'users#white_wine_automoton'
+  get  '/grim_persistence',    to: 'users#grim_persistence'
+  get  '/ingot_exchange',    to: 'users#ingot_exchange'
+  get  '/salt_peter_online',    to: 'users#salt_peter_online'
+  get  '/the_ascent',    to: 'users#the_ascent'
+  get  '/an_exquisite_vintage',    to: 'users#an_exquisite_vintage'
+  get  '/tad_excessive',    to: 'users#tad_excessive'
+  get  '/tiger_farm',    to: 'users#tiger_farm'
+
+
   get  '/seasons',    to: 'users#seasons'
   get  '/world_map',    to: 'cards#world_map'
 

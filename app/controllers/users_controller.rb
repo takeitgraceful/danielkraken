@@ -58,6 +58,7 @@ class UsersController < ApplicationController
                                :characterfirstname,:characterlastname,
                                :characterseason,
                                :charactershipname,
+                               :moontype,
                                :password_confirmation)
 
   end
