@@ -1,7 +1,7 @@
 <%= form_for(@user= current_user) do |f| %>
   <%= render 'shared/error_messages', object: @user %>
 
-<%= f.label :charactershipname,"Choose Your Moon" %>
+<%= f.label :moontype,"Choose Your Moon" %>
 <div class="fontcolor-black">
   <select name="user[moontype]">
     <option value="plainwhite" selected="selected">A plain white moon.</option>

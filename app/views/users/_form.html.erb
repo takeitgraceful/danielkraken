@@ -2,22 +2,102 @@
   <%= render 'shared/error_messages', object: @user %>
 
   <%= f.label :name %>
+  <div class="fontcolor-black">
   <%= f.text_field :name, class: 'form-control' %>
+</div>
 
   <%= f.label :email %>
+  <div class="fontcolor-black">
   <%= f.email_field :email, class: 'form-control' %>
+</div>
 
   <%= f.label :password %>
+  <div class="fontcolor-black">
   <%= f.password_field :password, class: 'form-control' %>
-
+</div>
   <%= f.label :password_confirmation %>
+  <div class="fontcolor-black">
   <%= f.password_field :password_confirmation, class: 'form-control' %>
+</div>
 
   <%= f.label :characterfirstname,"First Name (limit 12 characters)" %>
+  <div class="fontcolor-black">
   <%= f.text_field :characterfirstname, :maxlength => 12, class: 'form-control' %>
+</div>
 
   <%= f.label :characterlastname,"Last Name (limit 12 characters)" %>
+  <div class="fontcolor-black">
   <%= f.text_field :characterlastname, :maxlength => 12, class: 'form-control' %>
+</div>
+  <%= f.label :charactershipname,"Select Your Ship" %>
+  <div class="fontcolor-black">
+    <select name="user[charactershipname]">
+      <option value="shipnamemutiny" selected="selected">H.M.S. Mutiny</option>
+      <option value="shipnamemanspreader">H.M.S. Manspreader</option>
+      <option value="shipnameunrequited">H.M.S. Unrequited</option>
+      <option value="shipnameunderestimator">H.M.S. Underestimator</option>
+      <option value="shipnamehangovercure">H.M.S. Hangover Cure</option>
+      <option value="shipnameafhv">H.M.S. America’s Funniest Home Videos</option>
+    </select>
+  </div>
+
+  <%= f.label :characterfirstname,"Select the Season" %>
+  <div class="fontcolor-black">
+  <%= f.select :characterseason, [
+    'STERLING',
+    'SAFFRON',
+    'RAM',
+    'ENTICER',
+    'SLATE',
+    'BUTTERSCOTCH',
+    'ROUSTABOUT',
+    'NAÏF',
+    'PURE ABJECT TERROR',
+    'OH HEAVENS',
+    'NEOPHYTE',
+    'ICONOCLAST',
+    'PETULANCE',
+    'NITPICKER',
+    'SHATTER',
+    'BACCHANAL BLANC',
+    'CLOVER',
+    'DOTARD',
+    'FANG',
+    'HONEYSUCKLE',
+    'BRIDLE',
+    'SPITTOON',
+    'FALSE WITNESS',
+    'WOOLPULLER',
+    'TORRENT',
+    'AB CHALLENGE',
+    'MIDWIFE',
+    'GOLIATH',
+    'WHISTLE',
+    'THIEF',
+    'BABEL',
+    'ENDURE',
+    'CARAMEL',
+    'LAMPLIGHTER',
+    'BANNERMAN',
+    'BACCHANAL ROUGE' ]%>
+</div>
+
+<%= f.label :moontype,"Choose Your Moon" %>
+<div class="fontcolor-black">
+  <select name="user[moontype]">
+    <option value="plainwhite" selected="selected">A plain white moon.</option>
+    <option value="hugeblue">A huge blue moon.</option>
+    <option value="redcrescent">A red crescent.</option>
+    <option value="goldcrescent">A gold crescent.</option>
+    <option value="greenskull">A neon green skull.</option>
+    <option value="discoball">A disco ball? Sure why not?</option>
+    <option value="predatormoon">The laser tracker from the Predator movie franchise? Fine.</option>
+
+  </select>
+</div>
+
 
   <%= f.submit yield(:button_text), class: "btn-lg gold3 white3" %>
+
+
 <% end %>
