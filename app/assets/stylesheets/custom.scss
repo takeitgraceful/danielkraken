@@ -3633,6 +3633,19 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
   animation:moonrise 30s infinite;
 }
 
+#balloon2 {
+  background: url(http://iwillnottakethisgracefully.com/images/balloon2.png) no-repeat center;
+	width: 200px;
+	height: 200px;
+  margin: 0 auto;
+  z-index:-1;
+  /* border-right: 1em solid crimson; */
+  position:absolute;
+  top:0;
+  left:40%;
+  animation:moonrise 30s infinite;
+}
+
 #cookie {
   background: url(http://iwillnottakethisgracefully.com/images/cookie.png) no-repeat center;
 	width: 200px;
