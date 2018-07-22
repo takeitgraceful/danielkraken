@@ -34,10 +34,12 @@ Rails.application.routes.draw do
   get  '/an_exquisite_vintage',    to: 'users#an_exquisite_vintage'
   get  '/tad_excessive',    to: 'users#tad_excessive'
   get  '/tiger_farm',    to: 'users#tiger_farm'
-
+  get  '/taste_of_betrayal',    to: 'users#taste_of_betrayal'
 
   get  '/seasons',    to: 'users#seasons'
   get  '/world_map',    to: 'cards#world_map'
+
+  get  '/privacy_policy',    to: 'users#privacy_policy'
 
 
 
