@@ -1,5 +1,4 @@
 <%= javascript_include_tag 'js.cookie.js' %>
-
 <%= javascript_tag do %>
 overAge = function () {
   $('#age-verify').addClass('hidden')
@@ -12,9 +11,6 @@ underAge = function () {
 goBack = function () {
     window.history.back();
 }
-
-
-
 
 <% end %>
 <% if session[:user_id].nil? %>
@@ -36,11 +32,12 @@ goBack = function () {
 <% end %>
 
 
-<div class="top-spacer">
+<div class="medallion">
+  <%= link_to signup_path do %>
+    <%= image_tag 'http://iwillnottakethisgracefully.com/images/dk_sign_up.svg'%>
+<% end %>
 </div>
-
-
-
+<!--
 <div id="krakenlogo">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=FONT_NAME_YOU_PICKED"/>
 
@@ -288,3 +285,4 @@ goBack = function () {
 </div>
 </div>
 </div>
+-->

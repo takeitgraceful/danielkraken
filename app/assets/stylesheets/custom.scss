@@ -419,15 +419,11 @@ body {
 }
 
 
-.medallion-button {
-  position: absolute;
-  padding-top:1em;
-  width:5em;
-  height:5em;
-  border-radius: 50%;
-  margin-left:-.2em;
-  margin-top:-6em;
-  text-align: center;
+.medallion {
+  margin: 0 auto;
+  overflow: auto;
+  margin:0 auto;
+  width:40%;
 }
 
 .square {
@@ -4270,6 +4266,7 @@ a2.before:hover:before,a2.after:hover:after{
 .logo {
   background: url(http://iwillnottakethisgracefully.com/images/mb_wreath.svg) no-repeat center;
 }
+
 
 .kraken_menu-title{
     font-family: 'EB Garamond', serif;
