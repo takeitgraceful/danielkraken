@@ -87,4 +87,5 @@ def submit
   flash[:notice] = "Post successfully created"
 end
 
+
 end
