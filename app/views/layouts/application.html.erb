@@ -5,8 +5,14 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
+                                              <!--[if IE]>
+  <%= stylesheet_link_tag 'ie', media: 'all', 'data-turbolinks-track' => true %>
+<![endif]-->
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= render 'layouts/shim' %>
+    <!--[if IE]>
+    	<link rel="stylesheet" type="text/css" href="all-ie-only.css" />
+    <![endif]-->
   </head>
   <body>
   <%= render 'layouts/header' %>
