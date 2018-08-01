@@ -4320,7 +4320,26 @@ a2.before:hover:before,a2.after:hover:after{
 
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+  width: 100%;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+}
+td, th {
+  color: white;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  font-size: 2em;
 
+}
+td, th {
+  padding: 1em;
+  text-align: left;
+}
 
 .dramatis {
   font-family: 'EB Garamond', serif;
