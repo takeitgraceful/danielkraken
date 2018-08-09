@@ -7815,8 +7815,28 @@ font-family: 'Skranji', cursive;
 	   color:#800020;
      margin-top:1em;
      margin-bottom:1em;
+     text-shadow: 2px 2px 5px red;
+     -webkit-animation: myfirst 3s 98765432;
+     -moz-animation: myfirst 3s 98765432;
+     animation: myfirst 3s 98765432;
 }
 
+@-webkit-keyframes myfirst
+{
+    from {text-shadow: 3px 3px 5px red;}
+    to {text-shadow : none;}
+}
+
+@-moz-keyframes myfirst
+{
+    from {text-shadow: 3px 3px 5px red;}
+    to {text-shadow : none;}
+}
+@keyframes myfirst
+{
+    from {text-shadow: 3px 3px 5px red;}
+    to {text-shadow : none;}
+}
 
 /*Adding Fonts*/
 
