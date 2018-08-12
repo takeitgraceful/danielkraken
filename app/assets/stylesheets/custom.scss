@@ -28,14 +28,14 @@ background-size: cover;
 
 $font-stack: 'EB Garamond', serif;
 $transition: 500ms;
-$window-width: 500px;
-$window-height: 300px;
+$window-width: 800px;
+$window-height: 450px;
 $button-color: #000000;
 
 #age-verify {
   z-index: 3;
   position: fixed;
-  top: 0;
+  top: 20%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -64,8 +64,9 @@ $button-color: #000000;
       font-family: $font-stack;
       &.title {
         color: $button-color;
-        font-size: 24px;
+        font-size: 2em;
         font-weight: bold;
+        margin-bottom:.5em;
       }
     }
     button {
@@ -88,18 +89,18 @@ $button-color: #000000;
         font-weight: bold;
         color:$button-color !important;
         margin-top:20px;
-        font-size: 1.5em;
+        font-size: 2em;
 
       }
       &.yes {
         float:left;
         font-weight: bold;
-        font-size: 1em;
+        font-size: 2em;
       }
       &.no {
         float:right;
         font-weight: bold;
-        font-size: 1em;
+        font-size: 2em;
 
       }
       &:hover {
