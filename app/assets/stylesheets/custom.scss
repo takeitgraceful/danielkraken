@@ -94,12 +94,12 @@ $button-color: #000000;
       &.yes {
         float:left;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1em;
       }
       &.no {
         float:right;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1em;
 
       }
       &:hover {
@@ -2194,7 +2194,7 @@ of successive pieces of content will stack, not collapse.
     box-sizing:border-box;
     -moz-box-sizing:border-box;
 }
-.hyperseacovering:hover:after, .hyperseacovering:hover:before {
+.hyperseacovering:hover:after, .hyperseacovering:hover:before, .hyperseacovering:hover:active {
     opacity:.7;
 }
 

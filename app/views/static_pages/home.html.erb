@@ -34,7 +34,7 @@ goBack = function () {
 <% if session[:user_id].nil? %>
 <div class="medallion">
   <%= link_to signup_path do %>
-    <%= image_tag 'http://iwillnottakethisgracefully.com/images/dk_sign_up.svg'%>
+    <%= image_tag asset_path('dk_sign_up_revised.svg')%>
 <% end %>
 </div>
 <% end %>
