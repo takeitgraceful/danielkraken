@@ -89,18 +89,18 @@ $button-color: #000000;
         font-weight: bold;
         color:$button-color !important;
         margin-top:20px;
-        font-size: 2em;
+        font-size: 1.5em;
 
       }
       &.yes {
         float:left;
         font-weight: bold;
-        font-size: 2em;
+        font-size: 1.5em;
       }
       &.no {
         float:right;
         font-weight: bold;
-        font-size: 2em;
+        font-size: 1.5em;
 
       }
       &:hover {
