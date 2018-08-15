@@ -53,27 +53,28 @@ $button-color: #000000;
     margin-top: -($window-height/2);
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-    border:6px solid $button-color;
+    border:2px solid $button-color;
     box-sizing: border-box;
     box-shadow: 0 20px 60px rgba(#000,0.2);
     transition: $transition;
     span {
       display: block;
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: .5em;
       font-family: $font-stack;
       &.title {
         color: $button-color;
         font-size: 2em;
         font-weight: bold;
-        margin-bottom:.5em;
       }
     }
     button {
-      border: 0;
-      margin: 0;
+      border-radius: 15px;
+      border: 8px solid #ffffff;
+      border: 8px;
+      margin: 8px;
       padding: 0;
-      width:38%;
+      width:30%;
       height:2em;
       color:#FFF;
       font-size: 2em;
@@ -89,24 +90,28 @@ $button-color: #000000;
         font-weight: bold;
         color:$button-color !important;
         margin-top:20px;
-        font-size: 1.5em;
+        font-size: 2em;
 
       }
       &.yes {
+        margin-left:3em;
         float:left;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 2em;
       }
       &.no {
+        margin-right:3em;
+        margin-bottom:1em;
         float:right;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 2em;
 
       }
       &:hover {
         transform:scale(1.1);
         box-shadow: 0 20px 60px rgba(#000,0.2);
-        background-color: lighten($button-color,10%);
+        background-color: white;
+        color:black;
       }
     }
     .underBox {
