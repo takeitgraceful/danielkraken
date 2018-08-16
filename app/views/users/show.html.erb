@@ -4,15 +4,16 @@
     <section class="user_info">
       <h1>
         <p>
-        <%= @user.name %>
+        Your Name: <%= @user.name %>
         </p>
         <p>
-        <%= @user.characterfirstname %>
+        Your Character's First Name: <%= @user.characterfirstname %>
         </p>
         <p>
-        <%= @user.characterlastname %>
+        Your Character's Last Name: <%= @user.characterlastname %>
         </p>
         <p>
+        Your Avatar:
         <%= gravatar_for @user %>
         </p>
       </h1>
